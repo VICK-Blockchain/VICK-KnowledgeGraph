@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <body>
     <h1 class="title">VICK Knowledge Graph</h1>
-        <div id="References">
-          <h3>References</h3>
-          <p> 1.	Abramson, E., Kaushal, R., & Vest, J. (2014). Improving immunization data management: An editorial on the potential of Electronic Health Records. Expert Review of Vaccines, 13(2), 189–191. https://doi.org/10.1586/14760584.2014.870038 <br>
+    <div id="Graph1">
+        <p>
+        </p>
+    </div>
+    <div id="References">
+        <h3>References</h3>
+        <p> 1.	Abramson, E., Kaushal, R., & Vest, J. (2014). Improving immunization data management: An editorial on the potential of Electronic Health Records. Expert Review of Vaccines, 13(2), 189–191. https://doi.org/10.1586/14760584.2014.870038 <br>
 2.	Chondrogiannis, E., Andronikou, V., Karanastasis, E., Litke, A., & Varvarigou, T. (2022). Using blockchain and semantic web technologies for the implementation of smart contracts between individuals and health insurance organizations. Blockchain: Research and Applications, 3(2), 100049. https://doi.org/10.1016/j.bcra.2021.100049  <br>
 3.	Gaynor, M., Tuttle, B., & Roe, A. (2025). Chapter 3—Blockchain applications in healthcare. In C. Krittanawong (Ed.), The Digital Doctor (pp. 41–52). Academic Press. https://doi.org/10.1016/B978-0-443-15728-8.00013-6 <br>
 4.	Kamolratanakul, S., & Pitisuttithum, P. (2021). Human Papillomavirus Vaccine Efficacy and Effectiveness against Cancer. Vaccines, 9(12), 1413. https://doi.org/10.3390/vaccines9121413 <br>
@@ -15,7 +19,7 @@
 10.	Cheng, C., da Veiga Leprevost, F., Davis, J., & He, Y. (2021). Blockchain technology for healthcare: Facilitating the transition to patient-driven interoperability. Blockchain in Healthcare Today, 4. https://doi.org/10.30953/bhty.v4.172 <br>
 11.	Mettler, M. (2016). Blockchain technology in healthcare: The revolution starts here. In 2016 IEEE 18th International Conference on e-Health Networking, Applications and Services (Healthcom) (pp. 1–3). IEEE. https://doi.org/10.1109/HealthCom.2016.7749510 <br>
 12.	Boersma, P., Black, L. I., & Ward, B. W. (2020). Vaccination coverage among adults aged 18–26 years: United States, 2018 (NCHS Data Brief No. 354). National Center for Health Statistics. https://www.cdc.gov/nchs/products/databriefs/db354.htm 
-          </p>
-        </div>
+        </p>
+    </div>
 </body>
 </html>
