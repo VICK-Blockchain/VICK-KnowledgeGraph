@@ -11,6 +11,9 @@ VICK is an ontology-based knowledge graph extending the Vaccine Informed Consent
 * Tuan Amith, PhD (UTMB)
 * Ana Neumann (UTHealth)
 
+## Acknowledgement
+
+Kevin Pasquette was supported by the UTHealth- Houston-CPRIT Innovation for Cancer Prevention Research Training Program Summer Undergraduate Fellowship (Cancer Prevention & Research Institute of Texas Grant #RP210042).
 
 ## References
 * Abramson, E., Kaushal, R., & Vest, J. (2014). Improving immunization data management: An editorial on the potential of Electronic Health Records. Expert Review of Vaccines, 13(2), 189–191. https://doi.org/10.1586/14760584.2014.870038 <br>
