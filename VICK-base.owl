@@ -1,0 +1,3344 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.org/vick/vick.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://purl.org/vick/vick.owl">
+    <Prefix name="" IRI="http://www.semanticweb.org/kevinpasquette/ontologies/2025/6/untitled-ontology-35/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://purl.obolibrary.org/obo/omrse/releases/2025-06-30/omrse.owl</Import>
+    <Import>https://raw.githubusercontent.com/VICO-ontology/VICO/master/src/ontology/release_merged_file/vico_merged.owl</Import>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
+        <Literal>Yongqun &quot;Oliver&quot; He</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <Literal>VICK is an application graph to describe vaccine immunization information. VICK is built on OMRSE and VICO, and based on metadata from Texas immunization records for patients</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <Literal>Vaccine Informed Consent Knowledge base (VICK)</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <Literal>Kevin Pasquette</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <Literal>Tuan Amith</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_162"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ICO_0000001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/OAE_0000001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/OAE_0000004"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0000011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0000047"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001134"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/VICO_0000016"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/VICO_0000072"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/VO_0000001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/VO_0000002"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/VO_0000049"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/VO_0000278"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/VO_0000299"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/VO_0000574"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/VO_0000609"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/VO_0000667"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/VO_0001187"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/VO_0011559"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Administration_Processes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgeOfEligibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AmericanIndianOrAlaskaNative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Antibodies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ApartmentNumber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biochemical_Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biological_Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Birthdate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BlackOrAfricanAmerican"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BodilyProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BuildingNumber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CapabilityToConsent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carcinogen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClinicAddress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consent_Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Digital_Address"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElectronicHealthRecords"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EmailAddress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ethnicity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fever"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gardasil9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Geographic_Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HPV11"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HPV16"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HPV18"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HPV31"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HPV33"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HPV45"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HPV52"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HPV58"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HPV6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HPVEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Headache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HepBVaccination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HispanicOrLatino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HomeAddres"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IdentifiersAndDemographics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ImmuneResponse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ImmunizationRecord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indentifiers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InformationContentEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Injury"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Instructions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Itching"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#L1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#L2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lot_Number"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicalRecord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medical_Events"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MinIntervalBetween"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MinOverdueAge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MinRecAge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MinRecInterval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MinValidInterval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NativeHawaiianOrOtherPacificIslander"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NotHispanicOrLatino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OverdueIntervalBetween"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PapillomavirusParticles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParentalConsent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pharmacies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protein"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PublicHealthDepartments"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Race"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Redness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Risks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Series"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Signature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Soreness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#State"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StateHealthDepartment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Street"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Swelling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Telephone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Textual_Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Title"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000222"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000223"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000224"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000225"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000227"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000228"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000229"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000230"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000231"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000232"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000233"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000234"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000235"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000236"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000237"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000238"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000239"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000240"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000241"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000242"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000243"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000245"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000247"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000249"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000250"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000252"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000253"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000254"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000255"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000256"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000259"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000260"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000261"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000263"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000265"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000266"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000267"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000268"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000269"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000270"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000271"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000272"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000273"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000274"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000275"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000276"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000277"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000278"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000279"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000280"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000281"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000282"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VaccinationHistory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vaccination_Schedules"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VaccineExpirationDate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vaccine_Component"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Virus-likeParticles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#White"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZipCode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#allergic_reaction_history"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sexual_contact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#site_of_injection"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000125"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000304"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/VO_0000547"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/VO_0001243"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/VO_0003355"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#VICK_0000220"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#VICK_0000257"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#VICK_0000258"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#administered_at"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#causes_dysfunction_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#delivered_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_documented_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#leads_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#placed_on"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#stores"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#VICK_0000000"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.obolibrary.org/obo/VICO_0000054"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/VO_0000695"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VICK_0000221"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VICK_0000246"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VICK_0000264"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OAE_0000004"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#VICK_0000220"/>
+            <ObjectOneOf>
+                <NamedIndividual IRI="#VICK_0000221"/>
+            </ObjectOneOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OAE_0000004"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#VICK_0000257"/>
+            <Class IRI="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000056"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0001025"/>
+            <Class IRI="#City"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000057"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0001025"/>
+            <Class IRI="#City"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0000011"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000235"/>
+            <Class IRI="#Birthdate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/VICO_0000016"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000235"/>
+            <Class IRI="http://purl.obolibrary.org/obo/IAO_0000422"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/VICO_0000016"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000235"/>
+            <Class IRI="http://purl.obolibrary.org/obo/IAO_0020015"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/VICO_0000016"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000235"/>
+            <Class IRI="#EmailAddress"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/VICO_0000016"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000235"/>
+            <Class IRI="#VICK_0000228"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/VICO_0000016"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000076"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/VICO_0000016"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#VICK_0000000"/>
+            <Class IRI="#Ethnicity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/VICO_0000016"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#VICK_0000000"/>
+            <Class IRI="#Race"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/VICO_0000016"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://purl.obolibrary.org/obo/VICO_0000054"/>
+            <Datatype abbreviatedIRI="owl:real"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/VICO_0000072"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000057"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VICO_0000016"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/VICO_0000072"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000063"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VO_0000002"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/VICO_0000072"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="http://purl.obolibrary.org/obo/ICO_0000138"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/VICO_0000072"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#VICK_0000261"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/VO_0000001"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OMRSE_00000068"/>
+            <Class IRI="#VICK_0000222"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/VO_0000001"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VO_0000547"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VO_0000574"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/VO_0000001"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VO_0001243"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VICO_0000016"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/VO_0000001"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#VICK_0000000"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OAE_0000004"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/VO_0000049"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VO_0003355"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#HPV11"/>
+                <Class IRI="#HPV16"/>
+                <Class IRI="#HPV18"/>
+                <Class IRI="#HPV6"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/VO_0011559"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VO_0003355"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#HPV11"/>
+                <Class IRI="#HPV16"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Administration_Processes"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgeOfEligibility"/>
+        <Class IRI="#Vaccination_Schedules"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AmericanIndianOrAlaskaNative"/>
+        <Class IRI="#Race"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Antibodies"/>
+        <Class IRI="#Biochemical_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ApartmentNumber"/>
+        <Class IRI="#Geographic_Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asian"/>
+        <Class IRI="#Race"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biochemical_Entity"/>
+        <Class IRI="#Biological_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biological_Entity"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Birthdate"/>
+        <Class IRI="#Indentifiers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlackOrAfricanAmerican"/>
+        <Class IRI="#Race"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BodilyProcess"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Body"/>
+        <Class IRI="#Biological_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BuildingNumber"/>
+        <Class IRI="#Geographic_Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CapabilityToConsent"/>
+        <Class IRI="#Consent_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carcinogen"/>
+        <Class IRI="#Biological_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#City"/>
+        <Class IRI="#Geographic_Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClinicAddress"/>
+        <Class IRI="#Geographic_Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Consent"/>
+        <Class IRI="#Consent_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Consent_Entity"/>
+        <Class IRI="#IdentifiersAndDemographics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Country"/>
+        <Class IRI="#Geographic_Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Digital_Address"/>
+        <Class IRI="#Indentifiers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disposition"/>
+        <Class IRI="#Consent_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E1"/>
+        <Class IRI="#Protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E2"/>
+        <Class IRI="#Protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E3"/>
+        <Class IRI="#Protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E4"/>
+        <Class IRI="#Protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E5"/>
+        <Class IRI="#Protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E6"/>
+        <Class IRI="#Protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E7"/>
+        <Class IRI="#Protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectronicHealthRecords"/>
+        <Class IRI="#MedicalRecord"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EmailAddress"/>
+        <Class IRI="#Digital_Address"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ethnicity"/>
+        <Class IRI="#IdentifiersAndDemographics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fever"/>
+        <Class IRI="#Risks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gardasil9"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VO_0000667"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gardasil9"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000295"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VO_0001187"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gardasil9"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000304"/>
+            <ObjectOneOf>
+                <NamedIndividual IRI="http://purl.obolibrary.org/obo/VO_0000695"/>
+            </ObjectOneOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gardasil9"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VO_0003355"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#HPV11"/>
+                <Class IRI="#HPV16"/>
+                <Class IRI="#HPV18"/>
+                <Class IRI="#HPV31"/>
+                <Class IRI="#HPV33"/>
+                <Class IRI="#HPV45"/>
+                <Class IRI="#HPV52"/>
+                <Class IRI="#HPV58"/>
+                <Class IRI="#HPV6"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Geographic_Location"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HPV11"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HPV16"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HPV18"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HPV31"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HPV33"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HPV45"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HPV52"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HPV58"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HPV6"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HPVEntity"/>
+        <Class IRI="#Biochemical_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Headache"/>
+        <Class IRI="#Risks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HepBVaccination"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VO_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HispanicOrLatino"/>
+        <Class IRI="#Ethnicity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HomeAddres"/>
+        <Class IRI="#Geographic_Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HomeAddres"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002180"/>
+            <Class IRI="#ApartmentNumber"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HomeAddres"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002180"/>
+            <Class IRI="#BuildingNumber"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HomeAddres"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002180"/>
+            <Class IRI="#City"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HomeAddres"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002180"/>
+            <Class IRI="#Country"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HomeAddres"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002180"/>
+            <Class IRI="#State"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HomeAddres"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002180"/>
+            <Class IRI="#Street"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HomeAddres"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002180"/>
+            <Class IRI="#ZipCode"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ID"/>
+        <Class IRI="#Indentifiers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IdentifiersAndDemographics"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImmuneResponse"/>
+        <Class IRI="#BodilyProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImmunizationRecord"/>
+        <Class IRI="#MedicalRecord"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indentifiers"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000314"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationContentEntity"/>
+        <Class IRI="#Textual_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Injury"/>
+        <Class IRI="#Risks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Instructions"/>
+        <Class IRI="#Textual_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Itching"/>
+        <Class IRI="#Risks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#L1"/>
+        <Class IRI="#Protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#L2"/>
+        <Class IRI="#Protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lot_Number"/>
+        <Class IRI="#Vaccine_Component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicalRecord"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000310"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medical_Events"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MinIntervalBetween"/>
+        <Class IRI="#Vaccination_Schedules"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MinOverdueAge"/>
+        <Class IRI="#Vaccination_Schedules"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MinRecAge"/>
+        <Class IRI="#Vaccination_Schedules"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MinRecInterval"/>
+        <Class IRI="#Vaccination_Schedules"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MinValidInterval"/>
+        <Class IRI="#Vaccination_Schedules"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Name"/>
+        <Class IRI="#Indentifiers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NativeHawaiianOrOtherPacificIslander"/>
+        <Class IRI="#Race"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NotHispanicOrLatino"/>
+        <Class IRI="#Ethnicity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OverdueIntervalBetween"/>
+        <Class IRI="#Vaccination_Schedules"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PapillomavirusParticles"/>
+        <Class IRI="#HPVEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParentalConsent"/>
+        <Class IRI="#Consent_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pharmacies"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000245"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pharmacies"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0001025"/>
+            <Class IRI="#City"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protein"/>
+        <Class IRI="#HPVEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PublicHealthDepartments"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000245"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PublicHealthDepartments"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0001025"/>
+            <Class IRI="#State"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Race"/>
+        <Class IRI="#IdentifiersAndDemographics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Redness"/>
+        <Class IRI="#Risks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Risks"/>
+        <Class IRI="#Vaccine_Component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Series"/>
+        <Class IRI="#Vaccine_Component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Signature"/>
+        <Class IRI="#IdentifiersAndDemographics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soreness"/>
+        <Class IRI="#Risks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#State"/>
+        <Class IRI="#Geographic_Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StateHealthDepartment"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000245"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StateHealthDepartment"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0001025"/>
+            <Class IRI="#State"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Street"/>
+        <Class IRI="#Geographic_Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Swelling"/>
+        <Class IRI="#Risks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Telephone"/>
+        <Class IRI="#Indentifiers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Textual_Entity"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000310"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Title"/>
+        <Class IRI="#IdentifiersAndDemographics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000222"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000222"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000087"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000012"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000222"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#VICK_0000245"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000223"/>
+        <Class IRI="#VICK_0000222"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000224"/>
+        <Class IRI="#VICK_0000222"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000225"/>
+        <Class IRI="#VICK_0000222"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000227"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000228"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0020000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000229"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0020000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000230"/>
+        <Class IRI="#VICK_0000228"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000231"/>
+        <Class IRI="#VICK_0000228"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000232"/>
+        <Class IRI="#VICK_0000228"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000233"/>
+        <Class IRI="#VICK_0000228"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000234"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0020000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000235"/>
+        <Class IRI="#VICK_0000234"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000236"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000237"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_162"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000238"/>
+        <Class IRI="#VICK_0000237"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000238"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0004028"/>
+            <Class IRI="#HPV16"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000239"/>
+        <Class IRI="#VICK_0000237"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000239"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0004028"/>
+            <Class IRI="#HPV16"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000240"/>
+        <Class IRI="#VICK_0000237"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000240"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0004028"/>
+            <Class IRI="#HPV16"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000241"/>
+        <Class IRI="#VICK_0000237"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000241"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0004028"/>
+            <ObjectUnionOf>
+                <Class IRI="#HPV16"/>
+                <Class IRI="#HPV18"/>
+                <Class IRI="#HPV31"/>
+                <Class IRI="#HPV45"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000242"/>
+        <Class IRI="#VICK_0000237"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000242"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0004028"/>
+            <Class IRI="#HPV16"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000243"/>
+        <Class IRI="#VICK_0000237"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000243"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0004028"/>
+            <ObjectUnionOf>
+                <Class IRI="#HPV16"/>
+                <Class IRI="#HPV18"/>
+                <Class IRI="#HPV33"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000245"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000245"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000245"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OMRSE_00000167"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VO_0000002"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000247"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VO_0000299"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000249"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_4"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000250"/>
+        <Class IRI="#VICK_0000249"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000250"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0004028"/>
+            <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000250"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#VICK_0000258"/>
+            <Class IRI="#VICK_0000253"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000250"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#VICK_0000258"/>
+            <Class IRI="#VICK_0000254"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000250"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#VICK_0000258"/>
+            <Class IRI="#VICK_0000255"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000250"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#VICK_0000258"/>
+            <Class IRI="#VICK_0000256"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000252"/>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001134"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000253"/>
+        <Class IRI="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000254"/>
+        <Class IRI="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000255"/>
+        <Class IRI="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000256"/>
+        <Class IRI="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000259"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0021003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000260"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ICO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000261"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000310"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000263"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RO_0002577"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000265"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VICO_0000072"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000265"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000057"/>
+            <Class IRI="#VICK_0000267"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000265"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000057"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://purl.obolibrary.org/obo/VICO_0000023"/>
+                <Class IRI="#VICK_0000266"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000265"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000057"/>
+            <ObjectUnionOf>
+                <Class IRI="http://purl.obolibrary.org/obo/VICO_0000040"/>
+                <Class IRI="http://purl.obolibrary.org/obo/VICO_0000070"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000265"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000063"/>
+            <Class IRI="#VICK_0000282"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000266"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VICO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000267"/>
+        <Class IRI="#VICK_0000225"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000268"/>
+        <Class IRI="#VICK_0000236"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000269"/>
+        <Class IRI="#VICK_0000268"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000269"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000063"/>
+            <Class IRI="#VICK_0000270"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000270"/>
+        <Class IRI="#VICK_0000268"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000270"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000063"/>
+            <Class IRI="#VICK_0000271"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000271"/>
+        <Class IRI="#VICK_0000268"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000272"/>
+        <Class IRI="#VICK_0000282"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000272"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002224"/>
+            <Class IRI="#VICK_0000269"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000272"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002230"/>
+            <Class IRI="#VICK_0000271"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000273"/>
+        <Class IRI="#VICK_0000282"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000273"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002224"/>
+            <Class IRI="#VICK_0000276"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000273"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002230"/>
+            <Class IRI="#VICK_0000277"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000274"/>
+        <Class IRI="#VICK_0000282"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000274"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002224"/>
+            <Class IRI="#VICK_0000279"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000274"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002230"/>
+            <Class IRI="#VICK_0000281"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000275"/>
+        <Class IRI="#VICK_0000236"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000276"/>
+        <Class IRI="#VICK_0000275"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000276"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000063"/>
+            <Class IRI="#VICK_0000277"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000277"/>
+        <Class IRI="#VICK_0000275"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000278"/>
+        <Class IRI="#VICK_0000236"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000279"/>
+        <Class IRI="#VICK_0000278"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000279"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000063"/>
+            <Class IRI="#VICK_0000280"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000280"/>
+        <Class IRI="#VICK_0000278"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000280"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000063"/>
+            <Class IRI="#VICK_0000281"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000281"/>
+        <Class IRI="#VICK_0000278"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000282"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VO_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VaccinationHistory"/>
+        <Class IRI="#ImmunizationRecord"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vaccination_Schedules"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VaccineExpirationDate"/>
+        <Class IRI="#Vaccine_Component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vaccine_Component"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Virus-likeParticles"/>
+        <Class IRI="#HPVEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White"/>
+        <Class IRI="#Race"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZipCode"/>
+        <Class IRI="#Geographic_Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#allergic_reaction_history"/>
+        <Class IRI="#MedicalRecord"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sexual_contact"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sexual_contact"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000063"/>
+            <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#site_of_injection"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#site_of_injection"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0001025"/>
+            <Class IRI="#Body"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#VICK_0000247"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/VO_0000695"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/GEO_000000400"/>
+        <NamedIndividual IRI="#VICK_0000221"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
+        <NamedIndividual IRI="#VICK_0000246"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VICK_0000263"/>
+        <NamedIndividual IRI="#VICK_0000264"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#VICK_0000257"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000125"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#VICK_0000000"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#VICK_0000257"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OAE_0000004"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#VICK_0000257"/>
+        <Class IRI="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Administration_Processes</IRI>
+        <Literal xml:lang="en">administration process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#AgeOfEligibility</IRI>
+        <Literal xml:lang="en">the age in which a person is eligible to receive a vaccine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AgeOfEligibility</IRI>
+        <Literal xml:lang="en">age of eligibility</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#AmericanIndianOrAlaskaNative</IRI>
+        <Literal>http://purl.obolibrary.org/obo/OMRSE_00000215</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AmericanIndianOrAlaskaNative</IRI>
+        <Literal xml:lang="en">American Indian or Alaska Native</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Antibodies</IRI>
+        <Literal xml:lang="en">Immunoglobulin molecules having a specific amino acid sequence by virtue of which they interact only with the ANTIGEN (or a very similar shape) that induced their synthesis in cells of the lymphoid series </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#Antibodies</IRI>
+        <Literal>http://purl.bioontology.org/ontology/MESH/D000906</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Antibodies</IRI>
+        <Literal xml:lang="en">antibodies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#ApartmentNumber</IRI>
+        <Literal xml:lang="en">number corresponding to a person&apos;s apartment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#ApartmentNumber</IRI>
+        <Literal>http://semanticscience.org/resource/SIO_000768</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ApartmentNumber</IRI>
+        <Literal xml:lang="en">apartment number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#Asian</IRI>
+        <Literal>http://purl.obolibrary.org/obo/OMRSE_00000216</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Asian</IRI>
+        <Literal xml:lang="en">Asian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Biochemical_Entity</IRI>
+        <Literal xml:lang="en">a biological molecule involved in a metabloic pathway</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Biochemical_Entity</IRI>
+        <Literal xml:lang="en">biochemical entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Biological_Entity</IRI>
+        <Literal xml:lang="en">a biological molecule involved in a metabloic pathway</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Biological_Entity</IRI>
+        <Literal xml:lang="en">biological entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Birthdate</IRI>
+        <Literal xml:lang="en">the date which a person is born</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#Birthdate</IRI>
+        <Literal>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68615</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Birthdate</IRI>
+        <Literal xml:lang="en">birthdate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#BlackOrAfricanAmerican</IRI>
+        <Literal>http://purl.obolibrary.org/obo/OMRSE_00000217</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BlackOrAfricanAmerican</IRI>
+        <Literal xml:lang="en">Black or African American</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#BodilyProcess</IRI>
+        <Literal xml:lang="en">a process which occurs in the body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#BodilyProcess</IRI>
+        <Literal>http://purl.obolibrary.org/obo/OGMS_0000060</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BodilyProcess</IRI>
+        <Literal xml:lang="en">bodily process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Body</IRI>
+        <Literal xml:lang="en">the physical structure of a person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#Body</IRI>
+        <Literal>http://purl.org/sig/ont/fma/fma256135</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Body</IRI>
+        <Literal xml:lang="en">body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#BuildingNumber</IRI>
+        <Literal xml:lang="en">number corresponding to a person&apos;s apartment building</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#BuildingNumber</IRI>
+        <Literal>http://purl.bioontology.org/ontology/HL7/C1550714</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BuildingNumber</IRI>
+        <Literal xml:lang="en">building number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#CapabilityToConsent</IRI>
+        <Literal xml:lang="en">a person&apos;s ability to provide legal consent to a procedure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CapabilityToConsent</IRI>
+        <Literal xml:lang="en">capability to consent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Carcinogen</IRI>
+        <Literal xml:lang="en">a molecule or organism which can lead to cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#Carcinogen</IRI>
+        <Literal>http://purl.obolibrary.org/obo/NCIT_C347</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Carcinogen</IRI>
+        <Literal xml:lang="en">carcinogen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#City</IRI>
+        <Literal xml:lang="en">a major metropolitan center of a region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#City</IRI>
+        <Literal>http://purl.obolibrary.org/obo/creno.owl#City</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#City</IRI>
+        <Literal xml:lang="en">city</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#ClinicAddress</IRI>
+        <Literal xml:lang="en">the location of a clinic or physician&apos;s ofice</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ClinicAddress</IRI>
+        <Literal xml:lang="en">clinic address</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Consent</IRI>
+        <Literal xml:lang="en">to permit, approve, or agree of an action</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#Consent</IRI>
+        <Literal>http://purl.obolibrary.org/obo/NCIT_C25460</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Consent</IRI>
+        <Literal xml:lang="en">consent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Consent_Entity</IRI>
+        <Literal xml:lang="en">consent entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Country</IRI>
+        <Literal xml:lang="en">A Geopolitical Entity that delimits a Government with effective internal and external sovereignty over the region and its population, and which is not dependent on or subject to any other power or Geopolitical Entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#Country</IRI>
+        <Literal>http://www.ontologyrepository.com/CommonCoreOntologies/Country</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country</IRI>
+        <Literal xml:lang="en">country</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Digital_Address</IRI>
+        <Literal xml:lang="en">digital address</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Disposition</IRI>
+        <Literal xml:lang="en">The tendency of something to act in a certain manner under given circumstances resulting from natural constitution; nature; quality; orderly arrangement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Disposition</IRI>
+        <Literal xml:lang="en">disposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#E1</IRI>
+        <Literal xml:lang="en">protein which facilitates the early spead of papillomavirus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#E1</IRI>
+        <Literal xml:lang="en">E1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#E2</IRI>
+        <Literal xml:lang="en">protein which facilitates the early spead of papillomavirus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#E2</IRI>
+        <Literal xml:lang="en">E2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#E3</IRI>
+        <Literal xml:lang="en">protein which facilitates the early spead of papillomavirus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#E3</IRI>
+        <Literal xml:lang="en">E3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#E4</IRI>
+        <Literal xml:lang="en">protein which facilitates the early spead of papillomavirus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#E4</IRI>
+        <Literal xml:lang="en">E4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#E5</IRI>
+        <Literal xml:lang="en">protein which facilitates the early spead of papillomavirus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#E5</IRI>
+        <Literal xml:lang="en">E5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#E6</IRI>
+        <Literal xml:lang="en">protein which facilitates the early spead of papillomavirus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#E6</IRI>
+        <Literal xml:lang="en">E6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#E7</IRI>
+        <Literal xml:lang="en">protein which facilitates the early spead of papillomavirus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#E7</IRI>
+        <Literal xml:lang="en">E7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#ElectronicHealthRecords</IRI>
+        <Literal xml:lang="en">A digital version of a patient&apos;s medical history.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#ElectronicHealthRecords</IRI>
+        <Literal>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C142529</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ElectronicHealthRecords</IRI>
+        <Literal xml:lang="en">electronic health records</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#EmailAddress</IRI>
+        <Literal xml:lang="en">the address a person can receive and send electronic messages</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#EmailAddress</IRI>
+        <Literal>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42775</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EmailAddress</IRI>
+        <Literal xml:lang="en">email address</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Ethnicity</IRI>
+        <Literal xml:lang="en">a social group that shares a common and distinctive culture, religion, and language</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#Ethnicity</IRI>
+        <Literal>http://purl.obolibrary.org/obo/creno.owl#Ethnicity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ethnicity</IRI>
+        <Literal xml:lang="en">ethnicity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Fever</IRI>
+        <Literal xml:lang="en"> an elevation in body temperature above the normal daily range for an individual</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#Fever</IRI>
+        <Literal>http://purl.bioontology.org/ontology/AIR/FEVER</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fever</IRI>
+        <Literal xml:lang="en">fever</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Gardasil9</IRI>
+        <Literal xml:lang="en">a variant of the HPV vaccine which targets 9 HPV strains</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Gardasil9</IRI>
+        <Literal xml:lang="en">Gardasil 9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Geographic_Location</IRI>
+        <Literal xml:lang="en">A reference to a place on the Earth, by its name or by its geographical location.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#Geographic_Location</IRI>
+        <Literal>http://purl.obolibrary.org/obo/GAZ_00000448</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Geographic_Location</IRI>
+        <Literal xml:lang="en">geographic location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#HPV11</IRI>
+        <Literal xml:lang="en">HPV strain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HPV11</IRI>
+        <Literal xml:lang="en">HPV 11</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#HPV16</IRI>
+        <Literal xml:lang="en">HPV strain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HPV16</IRI>
+        <Literal xml:lang="en">HPV 16</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#HPV18</IRI>
+        <Literal xml:lang="en">HPV strain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HPV18</IRI>
+        <Literal xml:lang="en">HPV 18</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#HPV31</IRI>
+        <Literal xml:lang="en">HPV strain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HPV31</IRI>
+        <Literal xml:lang="en">HPV 31</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#HPV33</IRI>
+        <Literal xml:lang="en">HPV strain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HPV33</IRI>
+        <Literal xml:lang="en">HPV 33</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#HPV45</IRI>
+        <Literal xml:lang="en">HPV strain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HPV45</IRI>
+        <Literal xml:lang="en">HPV 45</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#HPV52</IRI>
+        <Literal xml:lang="en">HPV strain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HPV52</IRI>
+        <Literal xml:lang="en">HPV 52</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#HPV58</IRI>
+        <Literal xml:lang="en">HPV strain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HPV58</IRI>
+        <Literal xml:lang="en">HPV 58</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#HPV6</IRI>
+        <Literal xml:lang="en">HPV strain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HPV6</IRI>
+        <Literal xml:lang="en">HPV 6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#HPVEntity</IRI>
+        <Literal xml:lang="en">component related to HPV</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HPVEntity</IRI>
+        <Literal xml:lang="en">HPV entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Headache</IRI>
+        <Literal xml:lang="en">pain the head</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#Headache</IRI>
+        <Literal>http://www.semanticweb.org/zhenyuzhang/ontologies/2020/DRPSNPTO/Headache</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Headache</IRI>
+        <Literal xml:lang="en">headache</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#HepBVaccination</IRI>
+        <Literal xml:lang="en">vaccination against HepB infection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#HepBVaccination</IRI>
+        <Literal>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C178932</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HepBVaccination</IRI>
+        <Literal xml:lang="en">HepB vaccination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#HispanicOrLatino</IRI>
+        <Literal>http://purl.obolibrary.org/obo/OMRSE_00000207</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HispanicOrLatino</IRI>
+        <Literal xml:lang="en">hispanic or latino</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#HomeAddres</IRI>
+        <Literal xml:lang="en">the place where a person or organization is located or may be reached</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#HomeAddres</IRI>
+        <Literal>http://purl.org/net/OCRe/OCRe.owl#OCRE400040</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HomeAddres</IRI>
+        <Literal xml:lang="en">home address</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#ID</IRI>
+        <Literal xml:lang="en">form of identification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ID</IRI>
+        <Literal xml:lang="en">id</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#IdentifiersAndDemographics</IRI>
+        <Literal xml:lang="en">demographics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#ImmuneResponse</IRI>
+        <Literal xml:lang="en">Any immune system process that functions in the calibrated response of an organism to a potential internal or invasive threat.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#ImmuneResponse</IRI>
+        <Literal>http://purl.obolibrary.org/obo/GO_0006955</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ImmuneResponse</IRI>
+        <Literal xml:lang="en">immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#ImmunizationRecord</IRI>
+        <Literal xml:lang="en">a record of past vacciniations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ImmunizationRecord</IRI>
+        <Literal xml:lang="en">immunization record</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Indentifiers</IRI>
+        <Literal xml:lang="en">identifiers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#InformationContentEntity</IRI>
+        <Literal xml:lang="en">information content entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Injury</IRI>
+        <Literal xml:lang="en">harm or damage that is done</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#Injury</IRI>
+        <Literal>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3671</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Injury</IRI>
+        <Literal xml:lang="en">injury</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Instructions</IRI>
+        <Literal xml:lang="en">directions, orders, or recommended rules for guidance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#Instructions</IRI>
+        <Literal>http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00028</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Instructions</IRI>
+        <Literal xml:lang="en">instructions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Itching</IRI>
+        <Literal xml:lang="en">A skin and integumentary tissue symptom that is characterized by an uneasy irritating sensation in the upper surface of the skin usually held to result from mild stimulation of pain receptors.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#Itching</IRI>
+        <Literal>http://purl.obolibrary.org/obo/SYMP_0000432</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Itching</IRI>
+        <Literal xml:lang="en">itching</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#L1</IRI>
+        <Literal xml:lang="en">gene and protein which encodes for HPV strain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#L1</IRI>
+        <Literal xml:lang="en">L1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#L2</IRI>
+        <Literal xml:lang="en">gene and protein which encodes for HPV strain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#L2</IRI>
+        <Literal xml:lang="en">L2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Lot_Number</IRI>
+        <Literal xml:lang="en">a unique identifier assigned to a specific batch  of a vaccine </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#Lot_Number</IRI>
+        <Literal>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70848</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lot_Number</IRI>
+        <Literal xml:lang="en">lot number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#MedicalRecord</IRI>
+        <Literal xml:lang="en">a record of a patients past procedures and treatments</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#MedicalRecord</IRI>
+        <Literal>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45258</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MedicalRecord</IRI>
+        <Literal xml:lang="en">medical record</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Medical_Events</IRI>
+        <Literal xml:lang="en">medical event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#MinIntervalBetween</IRI>
+        <Literal xml:lang="en">the minimum interval of time for successive doses of a vaccine to be administeres</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MinIntervalBetween</IRI>
+        <Literal xml:lang="en">min interval between</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#MinOverdueAge</IRI>
+        <Literal xml:lang="en">minimum age it is recommended for a vaccine to be administeres</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MinOverdueAge</IRI>
+        <Literal xml:lang="en">min overdue age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#MinRecAge</IRI>
+        <Literal xml:lang="en">minimum age required to receive the immunization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MinRecAge</IRI>
+        <Literal xml:lang="en">min rec age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#MinRecInterval</IRI>
+        <Literal xml:lang="en">the minimum reccomended interval for administration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MinRecInterval</IRI>
+        <Literal xml:lang="en">min rec interval</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#MinValidInterval</IRI>
+        <Literal xml:lang="en">the minimum interval of time for successive doses of a vaccine to be administeres</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MinValidInterval</IRI>
+        <Literal xml:lang="en">min valid interval</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Name</IRI>
+        <Literal xml:lang="en">a combination of words by which a person is called</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#Name</IRI>
+        <Literal>https://www.codamono.com/biointerchange/gfvo#Name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Name</IRI>
+        <Literal xml:lang="en">name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#NativeHawaiianOrOtherPacificIslander</IRI>
+        <Literal>http://purl.obolibrary.org/obo/OMRSE_00000218</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NativeHawaiianOrOtherPacificIslander</IRI>
+        <Literal xml:lang="en">Native Hawaiian or Other Pacific Islander</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#NotHispanicOrLatino</IRI>
+        <Literal>http://purl.obolibrary.org/obo/OMRSE_00000208</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NotHispanicOrLatino</IRI>
+        <Literal xml:lang="en">not hispanic or latino</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#OverdueIntervalBetween</IRI>
+        <Literal xml:lang="en">interval of time where it is not recommended to administer successive doses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OverdueIntervalBetween</IRI>
+        <Literal xml:lang="en">overdue interval between</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#PapillomavirusParticles</IRI>
+        <Literal xml:lang="en">the infectious units of papillomaviruses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PapillomavirusParticles</IRI>
+        <Literal xml:lang="en">papillomavirus particles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#ParentalConsent</IRI>
+        <Literal xml:lang="en">Informed consent given by a parent on behalf of a minor or otherwise incompetent child.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#ParentalConsent</IRI>
+        <Literal>http://purl.bioontology.org/ontology/MESH/D033282</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ParentalConsent</IRI>
+        <Literal xml:lang="en">parental consent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Pharmacies</IRI>
+        <Literal xml:lang="en">a drugstore for medications</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#Pharmacies</IRI>
+        <Literal>http://purl.bioontology.org/ontology/MESH/D010594</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pharmacies</IRI>
+        <Literal xml:lang="en">pharmacy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Protein</IRI>
+        <Literal xml:lang="en">A physical entity consisting of a sequence of amino acids; a protein monomer; a single polypeptide chain. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#Protein</IRI>
+        <Literal>http://www.biopax.org/release/biopax-level3.owl#Protein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Protein</IRI>
+        <Literal xml:lang="en">protein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#PublicHealthDepartments</IRI>
+        <Literal xml:lang="en">government agencies, at the state and local levels, that focus on protecting and improving the health of the population</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PublicHealthDepartments</IRI>
+        <Literal xml:lang="en">public health departments</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Race</IRI>
+        <Literal xml:lang="en">a group of persons related by common descent or heredity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#Race</IRI>
+        <Literal>http://www.semanticweb.org/mypc/ontologies/2022/11/USBirthOnto-22#Race</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Race</IRI>
+        <Literal xml:lang="en">race</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Redness</IRI>
+        <Literal xml:lang="en">the inflamation of a part of the body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#Redness</IRI>
+        <Literal xml:lang="en">https://github.com/sap218/coid/blob/master/coid.owl#COID_00036</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Redness</IRI>
+        <Literal xml:lang="en">redness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Risks</IRI>
+        <Literal xml:lang="en">exposure to the chance of injury or loss</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#Risks</IRI>
+        <Literal>http://purl.bioontology.org/ontology/MESH/D012306</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Risks</IRI>
+        <Literal xml:lang="en">risks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Series</IRI>
+        <Literal xml:lang="en">the succession of vaccinations provided for a particular disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Series</IRI>
+        <Literal xml:lang="en">series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Signature</IRI>
+        <Literal xml:lang="en">a mark representing a person&apos;s name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#Signature</IRI>
+        <Literal>http://purl.obolibrary.org/obo/ICO_0000222</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Signature</IRI>
+        <Literal xml:lang="en">signature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Soreness</IRI>
+        <Literal xml:lang="en">pain in a part of one&apos;s body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#Soreness</IRI>
+        <Literal>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C50748</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Soreness</IRI>
+        <Literal xml:lang="en">soreness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#State</IRI>
+        <Literal xml:lang="en">regional government within a country</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#State</IRI>
+        <Literal>http://purl.obolibrary.org/obo/creno.owl#State</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#State</IRI>
+        <Literal xml:lang="en">state</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#StateHealthDepartment</IRI>
+        <Literal xml:lang="en">a government agency that serves as the primary public health authority within a state</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#StateHealthDepartment</IRI>
+        <Literal xml:lang="en">state health departments</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Street</IRI>
+        <Literal xml:lang="en">a public roadway in a village, town, or city</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#Street</IRI>
+        <Literal>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C80230</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Street</IRI>
+        <Literal xml:lang="en">street</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Swelling</IRI>
+        <Literal xml:lang="en">an abnormal enlargement of a part of the body, typically as a result of an accumulation of fluid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#Swelling</IRI>
+        <Literal>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3399</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Swelling</IRI>
+        <Literal xml:lang="en">swelling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Telephone</IRI>
+        <Literal xml:lang="en">the cellular number where a person can be reached</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#Telephone</IRI>
+        <Literal>http://purl.obolibrary.org/obo/NCIT_C40978</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Telephone</IRI>
+        <Literal xml:lang="en">telephone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Textual_Entity</IRI>
+        <Literal xml:lang="en">a generically dependent continuant whose concretizations are patterns of glyphs intended to be interpreted as words, formulas, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#Textual_Entity</IRI>
+        <Literal>http://purl.obolibrary.org/obo/IAO_0000300</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Textual_Entity</IRI>
+        <Literal xml:lang="en">textual entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Title</IRI>
+        <Literal xml:lang="en">a distinction belonging to a person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#Title</IRI>
+        <Literal>http://purl.obolibrary.org/obo/NCIT_C19067</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Title</IRI>
+        <Literal xml:lang="en">title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000220</IRI>
+        <Literal xml:lang="en">is reported by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000221</IRI>
+        <Literal xml:lang="en">Vaccine Adverse Event Reporting System (VAERS)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000222</IRI>
+        <Literal xml:lang="en">health care provider</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000223</IRI>
+        <Literal xml:lang="en">doctor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000224</IRI>
+        <Literal xml:lang="en">physician</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000225</IRI>
+        <Literal xml:lang="en">vaccine administrator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VICK_0000227</IRI>
+        <Literal>A pubic safety employee or volunteer whose duties include responding rapidly to an emergency</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000227</IRI>
+        <Literal xml:lang="en">first responder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#VICK_0000227</IRI>
+        <Literal>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C172263</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000228</IRI>
+        <Literal xml:lang="en">gender identifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000229</IRI>
+        <Literal xml:lang="en">date of birth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#VICK_0000229</IRI>
+        <Literal>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68615</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000230</IRI>
+        <Literal xml:lang="en">male gender identifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000231</IRI>
+        <Literal xml:lang="en">female gender identifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000232</IRI>
+        <Literal xml:lang="en">intersex gender identifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000233</IRI>
+        <Literal xml:lang="en">transgender identifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000234</IRI>
+        <Literal xml:lang="en">digital address</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000235</IRI>
+        <Literal xml:lang="en">email address</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#VICK_0000235</IRI>
+        <Literal>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42775</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000236</IRI>
+        <Literal xml:lang="en">vaccination dose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000237</IRI>
+        <Literal xml:lang="en">hpv-related cancers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000238</IRI>
+        <Literal xml:lang="en">oropharyngeal cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000239</IRI>
+        <Literal xml:lang="en">penile cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000240</IRI>
+        <Literal xml:lang="en">vaginal cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000241</IRI>
+        <Literal xml:lang="en">cervical cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000242</IRI>
+        <Literal xml:lang="en">anal cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000243</IRI>
+        <Literal xml:lang="en">vulvar cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#VICK_0000245</IRI>
+        <Literal>a place with a group of physicians dedicated to the treatment of patients</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000245</IRI>
+        <Literal xml:lang="en">health care clinic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#VICK_0000245</IRI>
+        <Literal>http://purl.bioontology.org/ontology/SNOMEDCT/257585005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000246</IRI>
+        <Literal xml:lang="en">National Vaccine Injury Compensation Program (VICP)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000247</IRI>
+        <Literal xml:lang="en">pharmaceutical company</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000249</IRI>
+        <Literal xml:lang="en">viral infection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000250</IRI>
+        <Literal xml:lang="en">human papilllomavirus infection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000252</IRI>
+        <Literal xml:lang="en">upper deltoid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000253</IRI>
+        <Literal xml:lang="en">cervical changes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000254</IRI>
+        <Literal xml:lang="en">genital warts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000255</IRI>
+        <Literal xml:lang="en">skin itchiness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000256</IRI>
+        <Literal xml:lang="en">skin warts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000257</IRI>
+        <Literal xml:lang="en">has vaccine adverse signs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000258</IRI>
+        <Literal xml:lang="en">has symptoms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#VICK_0000259</IRI>
+        <Literal>the act of disclosing valuable information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000259</IRI>
+        <Literal xml:lang="en">disclosure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#VICK_0000259</IRI>
+        <Literal>http://purl.bioontology.org/ontology/MESH/D030881</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000260</IRI>
+        <Literal xml:lang="en">minor informed consent form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>#VICK_0000261</IRI>
+        <Literal>VIS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#VICK_0000261</IRI>
+        <Literal>sheets that explain both the benefits and risks of a vaccine to vaccine recipients</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#VICK_0000261</IRI>
+        <Literal>http://purl.bioontology.org/ontology/LNC/LP28490-8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000261</IRI>
+        <Literal xml:lang="en">Vaccine Information Statement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000263</IRI>
+        <Literal xml:lang="en">immunization registry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000264</IRI>
+        <Literal xml:lang="en">ImmTrac2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000265</IRI>
+        <Literal xml:lang="en">hpv vaccination informed consent process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000266</IRI>
+        <Literal xml:lang="en">hpv vaccination patient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000267</IRI>
+        <Literal xml:lang="en">hpv vaccine administrator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000268</IRI>
+        <Literal xml:lang="en">Gardasil vaccination dose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000269</IRI>
+        <Literal xml:lang="en">First Gardasil vaccination dose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000270</IRI>
+        <Literal xml:lang="en">Second Gardasil vaccination dose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000271</IRI>
+        <Literal xml:lang="en">Third Gardasil vaccination dose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000272</IRI>
+        <Literal xml:lang="en">Gardasil HPV vaccination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000273</IRI>
+        <Literal xml:lang="en">Gardasil 9 HPV vaccination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000274</IRI>
+        <Literal xml:lang="en">Cervarix HPV vaccination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000275</IRI>
+        <Literal xml:lang="en">Gardasil 9 vaccination dose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000276</IRI>
+        <Literal xml:lang="en">First Gardasil 9 vaccination dose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000277</IRI>
+        <Literal xml:lang="en">Second Gardasil 9 vaccination dose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000278</IRI>
+        <Literal xml:lang="en">Cervarix vaccination dose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000279</IRI>
+        <Literal xml:lang="en">First Cervarix vaccination dose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000280</IRI>
+        <Literal xml:lang="en">Second Cervarix vaccination dose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000281</IRI>
+        <Literal xml:lang="en">Third Cervarix vaccination dose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000282</IRI>
+        <Literal xml:lang="en">HPV vaccination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#VaccinationHistory</IRI>
+        <Literal xml:lang="en">history of a patient&apos;s immunizations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VaccinationHistory</IRI>
+        <Literal xml:lang="en">vaccination history</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Vaccination_Schedules</IRI>
+        <Literal xml:lang="en">An action specification comprising the number of doses and their timing for a vaccination of an individual organism against a specific infectious agent.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Vaccination_Schedules</IRI>
+        <Literal xml:lang="en">vaccination schedule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#VaccineExpirationDate</IRI>
+        <Literal xml:lang="en">The date assigned by the manufacturer on which the vaccine should no longer be used</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VaccineExpirationDate</IRI>
+        <Literal xml:lang="en">vaccine expiration date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Vaccine_Component</IRI>
+        <Literal xml:lang="en">a processed material that is output of the vaccine preparation and part of a vaccine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#Vaccine_Component</IRI>
+        <Literal xml:lang="en">http://purl.obolibrary.org/obo/VO_0000179</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Vaccine_Component</IRI>
+        <Literal xml:lang="en">vaccine component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#Virus-likeParticles</IRI>
+        <Literal xml:lang="en">non-infectious, virus-derived structures that mimic the form and size of a virus but lack the genetic material necessary for replication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Virus-likeParticles</IRI>
+        <Literal xml:lang="en">virus-like particles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#White</IRI>
+        <Literal>http://purl.obolibrary.org/obo/OMRSE_00000219</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#White</IRI>
+        <Literal xml:lang="en">White</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#ZipCode</IRI>
+        <Literal xml:lang="en">a system used in the U.S. consisting of a five-digit code </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#ZipCode</IRI>
+        <Literal>http://purl.obolibrary.org/obo/NCIT_C25720</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ZipCode</IRI>
+        <Literal xml:lang="en">zip code</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#administered_at</IRI>
+        <Literal xml:lang="en">administered at</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#allergic_reaction_history</IRI>
+        <Literal xml:lang="en">history of a patient&apos;s allergic reactions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#allergic_reaction_history</IRI>
+        <Literal xml:lang="en">allergic reaction history</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#causes_dysfunction_of</IRI>
+        <Literal xml:lang="en">causes dysfunction of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#delivered_by</IRI>
+        <Literal xml:lang="en">delivered by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#is_documented_by</IRI>
+        <Literal xml:lang="en">is documented by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#leads_to</IRI>
+        <Literal xml:lang="en">leads to</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#placed_on</IRI>
+        <Literal xml:lang="en">placed on</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#sexual_contact</IRI>
+        <Literal xml:lang="en">the touching of another person&apos;s intimate parts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sexual_contact</IRI>
+        <Literal xml:lang="en">sexual contact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#site_of_injection</IRI>
+        <Literal xml:lang="en">The location on the body where the vaccine is given to the patient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#site_of_injection</IRI>
+        <Literal xml:lang="en">site of injection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#stores</IRI>
+        <Literal xml:lang="en">stores</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#VICK_0000000</IRI>
+        <Literal xml:lang="en">Inverse of characteristic_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#VICK_0000000</IRI>
+        <Literal xml:lang="en">http://purl.obolibrary.org/obo/RO_0000053</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#VICK_0000000</IRI>
+        <Literal xml:lang="en">has characteristic</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
