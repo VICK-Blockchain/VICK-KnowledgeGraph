@@ -30050,6 +30050,12 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OAE_0000004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000547"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000574"/>
             </owl:Restriction>

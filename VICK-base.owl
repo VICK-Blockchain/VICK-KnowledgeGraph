@@ -718,6 +718,13 @@
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/VO_0000001"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002215"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OAE_0000004"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/VO_0000001"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/VO_0000547"/>
             <Class IRI="http://purl.obolibrary.org/obo/VO_0000574"/>
         </ObjectSomeValuesFrom>
