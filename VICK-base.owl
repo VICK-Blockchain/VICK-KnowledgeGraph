@@ -527,9 +527,6 @@
         <Class IRI="#ZipCode"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#sexual_contact"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#site_of_injection"/>
     </Declaration>
     <Declaration>
@@ -564,9 +561,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#causes_dysfunction_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#delivered_by"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#is_documented_by"/>
@@ -1632,10 +1626,6 @@
     <SubClassOf>
         <Class IRI="#ZipCode"/>
         <Class IRI="#Geographic_Location"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#sexual_contact"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#site_of_injection"/>
@@ -3072,11 +3062,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#delivered_by</IRI>
-        <Literal xml:lang="en">delivered by</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#is_documented_by</IRI>
         <Literal xml:lang="en">is documented by</Literal>
     </AnnotationAssertion>
@@ -3089,16 +3074,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#placed_on</IRI>
         <Literal xml:lang="en">placed on</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#sexual_contact</IRI>
-        <Literal xml:lang="en">the touching of another person&apos;s intimate parts</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#sexual_contact</IRI>
-        <Literal xml:lang="en">sexual contact</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>

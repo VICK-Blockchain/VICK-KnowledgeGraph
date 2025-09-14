@@ -6529,14 +6529,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
-    <!-- http://purl.org/vick/vick.owl#delivered_by -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/vick/vick.owl#delivered_by">
-        <rdfs:label xml:lang="en">delivered by</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://purl.org/vick/vick.owl#is_documented_by -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/vick/vick.owl#is_documented_by">
@@ -39830,16 +39822,6 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <external_byhand:definition xml:lang="en">a system used in the U.S. consisting of a five-digit code </external_byhand:definition>
         <oboInOwl:id>http://purl.obolibrary.org/obo/NCIT_C25720</oboInOwl:id>
         <rdfs:label xml:lang="en">zip code</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#sexual_contact -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#sexual_contact">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <external_byhand:definition xml:lang="en">the touching of another person&apos;s intimate parts</external_byhand:definition>
-        <rdfs:label xml:lang="en">sexual contact</rdfs:label>
     </owl:Class>
     
 
