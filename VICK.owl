@@ -6513,34 +6513,10 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
-    <!-- http://purl.org/vick/vick.owl#administered_at -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/vick/vick.owl#administered_at">
-        <rdfs:label xml:lang="en">administered at</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#causes_dysfunction_of -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/vick/vick.owl#causes_dysfunction_of">
-        <rdfs:label xml:lang="en">causes dysfunction of</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://purl.org/vick/vick.owl#is_documented_by -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/vick/vick.owl#is_documented_by">
         <rdfs:label xml:lang="en">is documented by</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#leads_to -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/vick/vick.owl#leads_to">
-        <rdfs:label xml:lang="en">leads to</rdfs:label>
     </owl:ObjectProperty>
     
 

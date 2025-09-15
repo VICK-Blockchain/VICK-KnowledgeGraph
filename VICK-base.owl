@@ -557,16 +557,7 @@
         <ObjectProperty IRI="#VICK_0000258"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#administered_at"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#causes_dysfunction_of"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#is_documented_by"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#leads_to"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#placed_on"/>
@@ -3052,23 +3043,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#administered_at</IRI>
-        <Literal xml:lang="en">administered at</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#causes_dysfunction_of</IRI>
-        <Literal xml:lang="en">causes dysfunction of</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#is_documented_by</IRI>
         <Literal xml:lang="en">is documented by</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#leads_to</IRI>
-        <Literal xml:lang="en">leads to</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
