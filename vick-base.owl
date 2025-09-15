@@ -734,6 +734,10 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/VO_0000667"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VO_0000177"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/VO_0011559"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/VO_0003355"/>

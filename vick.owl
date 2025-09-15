@@ -189,8 +189,8 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <rdfs:label xml:lang="en">definition</rdfs:label>
         <rdfs:label>definition</rdfs:label>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
         <rdfs:label>textual definition</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -211,8 +211,8 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</oboInOwl:is_metadata_tag>
         <oboInOwl:shorthand>editor_note</oboInOwl:shorthand>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <rdfs:label xml:lang="en">editor note</rdfs:label>
         <rdfs:label>editor note</rdfs:label>
+        <rdfs:label xml:lang="en">editor note</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -266,9 +266,9 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115 xml:lang="en">Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000119>Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
-        <obo:IAO_0000119>Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <rdfs:label>definition source</rdfs:label>
         <rdfs:label xml:lang="en">definition source</rdfs:label>
@@ -1470,8 +1470,8 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000233 rdf:resource="https://github.com/information-artifact-ontology/ontology-metadata/issues/123"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-7356-1779"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-18</terms:created>
-        <rdfs:label>has cross-reference</rdfs:label>
         <rdfs:label>database_cross_reference</rdfs:label>
+        <rdfs:label>has cross-reference</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -3415,8 +3415,8 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000111 xml:lang="en">is_specified_input_of</obo:IAO_0000111>
         <obo:IAO_0000111>is_specified_input_of</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">is_specified_input_of</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">some Autologous EBV(Epstein-Barr virus)-transformed B-LCL (B lymphocyte cell line) is_input_for instance of Chromum Release Assay described at https://wiki.cbil.upenn.edu/obiwiki/index.php/Chromium_Release_assay</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of.</obo:IAO_0000115>
@@ -3470,8 +3470,8 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000111>is specified output of</obo:IAO_0000111>
-        <obo:IAO_0000111 xml:lang="en">is_specified_output_of</obo:IAO_0000111>
         <obo:IAO_0000111>is_specified_output_of</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">is_specified_output_of</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alan Ruttenberg</obo:IAO_0000117>
@@ -6932,8 +6932,8 @@ For example, A and B may be gene products and binding of B by A positively regul
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
         <obo:IAO_0000600 xml:lang="en">An entity is anything that exists or has existed or will exist. (axiom label in BFO2 Reference: [001-001])</obo:IAO_0000600>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
-        <rdfs:label xml:lang="en">entity</rdfs:label>
         <rdfs:label>entity</rdfs:label>
+        <rdfs:label xml:lang="en">entity</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
@@ -7001,8 +7001,8 @@ For example, A and B may be gene products and binding of B by A positively regul
         <obo:IAO_0000602>(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] </obo:IAO_0000602>
         <obo:IAO_0000602>(forall (x) (if (Material Entity x) (exists (t) (and (TemporalRegion t) (existsAt x t))))) // axiom label in BFO2 CLIF: [011-002] </obo:IAO_0000602>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
-        <rdfs:label xml:lang="en">continuant</rdfs:label>
         <rdfs:label>continuant</rdfs:label>
+        <rdfs:label xml:lang="en">continuant</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
@@ -11871,8 +11871,8 @@ XML document; The instructions in a XSD file&quot;</obo:IAO_0000116>
         <obo:IAO_0000111 xml:lang="en">data about an ontology part</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">Data about an ontology part is a data item about a part of an ontology, for example a term</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">data about an ontology part is a data item about a part of an ontology, for example a term</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000117>Person:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ico.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label xml:lang="en">data about an ontology part</rdfs:label>
@@ -16760,13 +16760,13 @@ http://www.medterms.com/script/main/art.asp?articlekey=34214 . Some intervention
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A process that realizes a plan which is the concretization of a plan specification.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">A processual entity that realizes a plan which is the concretization of a plan specification.</obo:IAO_0000115>
+        <obo:IAO_0000116>&apos;Plan&apos; includes a future direction sense. That can be problematic if plans are changed during their execution. There are however implicit contingencies for protocols that an agent has in his mind that can be considered part of the plan, even if the agent didn&apos;t have them in mind before. Therefore, a planned process can diverge from what the agent would have said the plan was before executing it, by adjusting to problems encountered during execution (e.g. choosing another reagent with equivalent properties, if the originally planned one has run out.)</obo:IAO_0000116>
         <obo:IAO_0000116>We are only considering successfully completed planned processes. A plan may be modified, and details added during execution. For a given planned process, the associated realized plan specification is the one encompassing all changes made during execution. This means that all processes in which an agent acts towards achieving some 
 objectives is a planned process.</obo:IAO_0000116>
-        <obo:IAO_0000116>&apos;Plan&apos; includes a future direction sense. That can be problematic if plans are changed during their execution. There are however implicit contingencies for protocols that an agent has in his mind that can be considered part of the plan, even if the agent didn&apos;t have them in mind before. Therefore, a planned process can diverge from what the agent would have said the plan was before executing it, by adjusting to problems encountered during execution (e.g. choosing another reagent with equivalent properties, if the originally planned one has run out.)</obo:IAO_0000116>
         <obo:IAO_0000117>Bjoern Peters</obo:IAO_0000117>
         <obo:IAO_0000119>branch derived</obo:IAO_0000119>
-        <obo:IAO_0000232 xml:lang="en">This class merges the previously separated objective driven process and planned process, as they the separation proved hard to maintain. (1/22/09, branch call)</obo:IAO_0000232>
         <obo:IAO_0000232>6/11/9: Edited at workshop. Used to include: is initiated by an agent</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">This class merges the previously separated objective driven process and planned process, as they the separation proved hard to maintain. (1/22/09, branch call)</obo:IAO_0000232>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ico.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
@@ -16889,8 +16889,8 @@ objectives is a planned process.</obo:IAO_0000116>
         <obo:IAO_0000112 xml:lang="en">The person perform microarray experiments and submit microarray results (including raw data, processed data) with experiment description to ArrayExpress.</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A role borne by an entity and that is realized in a process that is part of an investigation in which an objective is achieved. These processes include, among others: planning, overseeing, funding, reviewing.</obo:IAO_0000115>
-        <obo:IAO_0000116>Philly2013: Historically, this role would have been borne only by humans or organizations. However, we now also want to enable representing investigations run by robot scientists such as ADAM (King et al, Science, 2009)</obo:IAO_0000116>
         <obo:IAO_0000116>Implementing a study means carrying out or performing the study and providing reagents or other materials used in the study and other tasks without which the study would not happen.</obo:IAO_0000116>
+        <obo:IAO_0000116>Philly2013: Historically, this role would have been borne only by humans or organizations. However, we now also want to enable representing investigations run by robot scientists such as ADAM (King et al, Science, 2009)</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">GROUP:  Role Branch</obo:IAO_0000117>
         <obo:IAO_0000118>investigator</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">OBI</obo:IAO_0000119>
@@ -17222,10 +17222,10 @@ for now.</obo:IAO_0000116>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000121"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs.</obo:IAO_0000115>
+        <obo:IAO_0000116>10/21/09: This is a placeholder term, that should ideally be imported from the NCBI taxonomy, but the high level hierarchy there does not suit our needs (includes plasmids and &apos;other organisms&apos;)</obo:IAO_0000116>
         <obo:IAO_0000116>13-02-2009:
 OBI doesn&apos;t take position as to  when an organism starts or ends being an organism - e.g. sperm, foetus.
 This issue is outside the scope of OBI.</obo:IAO_0000116>
-        <obo:IAO_0000116>10/21/09: This is a placeholder term, that should ideally be imported from the NCBI taxonomy, but the high level hierarchy there does not suit our needs (includes plasmids and &apos;other organisms&apos;)</obo:IAO_0000116>
         <obo:IAO_0000117>GROUP: OBI Biomaterial Branch</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">WEB: http://en.wikipedia.org/wiki/Organism</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ico.owl"/>
@@ -30116,8 +30116,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: ACAM2000</rdfs:comment>
         <rdfs:comment>Smallpox (Vaccinia) Vaccine, Live</rdfs:comment>
+        <rdfs:comment>Trade Name: ACAM2000</rdfs:comment>
         <rdfs:label>ACAM2000</rdfs:label>
         <rdfs:seeAlso>CVX: 75</rdfs:seeAlso>
     </owl:Class>
@@ -30172,8 +30172,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: ActHIB</rdfs:comment>
         <rdfs:comment>Product Name: Haemophilus b Conjugate Vaccine (Tetanus Toxoid Conjugate)</rdfs:comment>
+        <rdfs:comment>Trade Name: ActHIB</rdfs:comment>
         <rdfs:label>ActHIB</rdfs:label>
         <rdfs:seeAlso>CVX: 48</rdfs:seeAlso>
         <rdfs:seeAlso>PMID:</rdfs:seeAlso>
@@ -30213,8 +30213,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Adacel</rdfs:comment>
         <rdfs:comment>Product Name: Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine, Adsorbed</rdfs:comment>
+        <rdfs:comment>Trade Name: Adacel</rdfs:comment>
         <rdfs:label>Adacel</rdfs:label>
         <rdfs:seeAlso>CVX: 115</rdfs:seeAlso>
         <rdfs:seeAlso>CVX: 20</rdfs:seeAlso>
@@ -30277,8 +30277,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://www.cdc.gov/vaccines/pubs/pinkbook/downloads/appendices/B/excipient-table-2.pdf</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Afluria</rdfs:comment>
         <rdfs:comment>Product Name: Influenza Virus Vaccine</rdfs:comment>
+        <rdfs:comment>Trade Name: Afluria</rdfs:comment>
         <rdfs:label>Afluria</rdfs:label>
         <rdfs:seeAlso>CVX: 140</rdfs:seeAlso>
         <rdfs:seeAlso>CVX: 141</rdfs:seeAlso>
@@ -30316,8 +30316,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Attenuvax</rdfs:comment>
         <rdfs:comment>Product Name: Measles Virus Vaccine, Live</rdfs:comment>
+        <rdfs:comment>Trade Name: Attenuvax</rdfs:comment>
         <rdfs:label>Attenuvax</rdfs:label>
     </owl:Class>
     
@@ -30379,8 +30379,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Biothrax</rdfs:comment>
         <rdfs:comment>Product Name: Anthrax Vaccine Adsorbed</rdfs:comment>
+        <rdfs:comment>Trade Name: Biothrax</rdfs:comment>
         <rdfs:label>Biothrax</rdfs:label>
         <rdfs:seeAlso>CVX: 24</rdfs:seeAlso>
     </owl:Class>
@@ -30417,8 +30417,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Boostrix</rdfs:comment>
         <rdfs:comment>Product Name: Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine, Adsorbed</rdfs:comment>
+        <rdfs:comment>Trade Name: Boostrix</rdfs:comment>
         <rdfs:label>Boostrix</rdfs:label>
         <rdfs:seeAlso>CVX: 115</rdfs:seeAlso>
         <rdfs:seeAlso>CVX: 20</rdfs:seeAlso>
@@ -30456,8 +30456,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Comvax</rdfs:comment>
         <rdfs:comment>Product Name: Haemophilus b Conjugate Vaccine (Meningococcal Protein Conjugate) &amp; Hepatitis B Vaccine (Recombinant)</rdfs:comment>
+        <rdfs:comment>Trade Name: Comvax</rdfs:comment>
         <rdfs:label>Comvax</rdfs:label>
         <rdfs:seeAlso>CVX: 51</rdfs:seeAlso>
         <rdfs:seeAlso>PMID:</rdfs:seeAlso>
@@ -30496,8 +30496,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <obo:IAO_0000116>Vaccine components see http://www.vaccinesafety.edu/components-DTaP.htm</obo:IAO_0000116>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: DAPTACEL</rdfs:comment>
         <rdfs:comment>Product Name: Diphtheria &amp; Tetanus Toxoids &amp; Acellular Pertussis Vaccine Adsorbed</rdfs:comment>
+        <rdfs:comment>Trade Name: DAPTACEL</rdfs:comment>
         <rdfs:label>Daptacel</rdfs:label>
         <rdfs:seeAlso>CVX: 106</rdfs:seeAlso>
         <rdfs:seeAlso>CVX: 20</rdfs:seeAlso>
@@ -30529,8 +30529,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: DECAVAC</rdfs:comment>
         <rdfs:comment>Product Name: Tetanus &amp; Diphtheria Toxoids Adsorbed for Adult Use</rdfs:comment>
+        <rdfs:comment>Trade Name: DECAVAC</rdfs:comment>
         <rdfs:label>DECAVAC</rdfs:label>
         <rdfs:seeAlso>CVX: 113</rdfs:seeAlso>
     </owl:Class>
@@ -30631,8 +30631,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000119>http://en.wikipedia.org/wiki/Dryvax</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Dryvax</rdfs:comment>
         <rdfs:comment>Product Name: Smallpox Vaccine, Dried, Calf Lymph Type</rdfs:comment>
+        <rdfs:comment>Trade Name: Dryvax</rdfs:comment>
         <rdfs:label>Dryvax</rdfs:label>
         <rdfs:seeAlso>CVX: 75</rdfs:seeAlso>
     </owl:Class>
@@ -30675,8 +30675,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: FluLaval</rdfs:comment>
         <rdfs:comment>Product Name: Influenza Virus Vaccine, Trivalent, Types A and B</rdfs:comment>
+        <rdfs:comment>Trade Name: FluLaval</rdfs:comment>
         <rdfs:label>FluLaval</rdfs:label>
         <rdfs:seeAlso>CVX: 141</rdfs:seeAlso>
     </owl:Class>
@@ -30738,8 +30738,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://www.cdc.gov/vaccines/pubs/pinkbook/downloads/appendices/B/excipient-table-2.pdf</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: FluMist</rdfs:comment>
         <rdfs:comment>Product Name: Influenza Virus Vaccine, Live, Intranasal</rdfs:comment>
+        <rdfs:comment>Trade Name: FluMist</rdfs:comment>
         <rdfs:label>FluMist</rdfs:label>
         <rdfs:seeAlso>CVX: 111</rdfs:seeAlso>
     </owl:Class>
@@ -30782,8 +30782,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Fluarix</rdfs:comment>
         <rdfs:comment>Product Name: Influenza Virus Vaccine, Trivalent, Types A and B</rdfs:comment>
+        <rdfs:comment>Trade Name: Fluarix</rdfs:comment>
         <rdfs:label>Fluarix</rdfs:label>
         <rdfs:seeAlso>CVX: 140</rdfs:seeAlso>
     </owl:Class>
@@ -30826,8 +30826,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Fluvirin</rdfs:comment>
         <rdfs:comment>Product Name: Influenza Virus Vaccine, Trivalent, Types A and B</rdfs:comment>
+        <rdfs:comment>Trade Name: Fluvirin</rdfs:comment>
         <rdfs:label>Fluvirin</rdfs:label>
         <rdfs:seeAlso>CVX: 140</rdfs:seeAlso>
         <rdfs:seeAlso>CVX: 141</rdfs:seeAlso>
@@ -30871,8 +30871,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Fluzone</rdfs:comment>
         <rdfs:comment>Product Name: Influenza Virus Vaccine, Trivalent, Types A and B</rdfs:comment>
+        <rdfs:comment>Trade Name: Fluzone</rdfs:comment>
         <rdfs:label>Fluzone</rdfs:label>
         <rdfs:seeAlso>CVX: 140</rdfs:seeAlso>
         <rdfs:seeAlso>CVX: 141</rdfs:seeAlso>
@@ -30938,8 +30938,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Gardasil</rdfs:comment>
         <rdfs:comment>Product Name: Human Papillomavirus (Types 6, 11, 16, 18) Recombinant Vaccine</rdfs:comment>
+        <rdfs:comment>Trade Name: Gardasil</rdfs:comment>
         <rdfs:label>Gardasil</rdfs:label>
         <rdfs:seeAlso>CVX: 62</rdfs:seeAlso>
     </owl:Class>
@@ -30988,8 +30988,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Havrix</rdfs:comment>
         <rdfs:comment>Product Name: Hepatitis A Vaccine, Inactivated</rdfs:comment>
+        <rdfs:comment>Trade Name: Havrix</rdfs:comment>
         <rdfs:label>Havrix</rdfs:label>
         <rdfs:seeAlso>CVX: 52</rdfs:seeAlso>
         <rdfs:seeAlso>CVX: 83</rdfs:seeAlso>
@@ -31058,8 +31058,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: IPOL</rdfs:comment>
         <rdfs:comment>Product Name: Poliovirus Vaccine Inactivated (Monkey Kidney Cell)</rdfs:comment>
+        <rdfs:comment>Trade Name: IPOL</rdfs:comment>
         <rdfs:label>IPOL</rdfs:label>
         <rdfs:seeAlso>CVX: 10</rdfs:seeAlso>
         <rdfs:seeAlso>PMID:</rdfs:seeAlso>
@@ -31097,8 +31097,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Imovax</rdfs:comment>
         <rdfs:comment>Product Name: Rabies Vaccine</rdfs:comment>
+        <rdfs:comment>Trade Name: Imovax</rdfs:comment>
         <rdfs:label>Imovax Rabies (USA)</rdfs:label>
         <rdfs:seeAlso>CVX: 18</rdfs:seeAlso>
     </owl:Class>
@@ -31147,8 +31147,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Infanrix</rdfs:comment>
         <rdfs:comment>Product Name: Diphtheria &amp; Tetanus Toxoids &amp; Acellular Pertussis Vaccine Adsorbed</rdfs:comment>
+        <rdfs:comment>Trade Name: Infanrix</rdfs:comment>
         <rdfs:label>Infanrix</rdfs:label>
         <rdfs:seeAlso>CVX: 20</rdfs:seeAlso>
     </owl:Class>
@@ -31240,8 +31240,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: JE-Vax</rdfs:comment>
         <rdfs:comment>Product Name: Japanese Encephalitis Virus Vaccine Inactivated</rdfs:comment>
+        <rdfs:comment>Trade Name: JE-Vax</rdfs:comment>
         <rdfs:label>JE-Vax</rdfs:label>
         <rdfs:seeAlso>CVX: 39</rdfs:seeAlso>
     </owl:Class>
@@ -31284,8 +31284,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: KINRIX</rdfs:comment>
         <rdfs:comment>Product Name: Diphtheria and Tetanus Toxoids and Acellular Pertussis Adsorbed and Inactivated Poliovirus Vaccine</rdfs:comment>
+        <rdfs:comment>Trade Name: KINRIX</rdfs:comment>
         <rdfs:label>Kinrix</rdfs:label>
         <rdfs:seeAlso>CVX: 130</rdfs:seeAlso>
     </owl:Class>
@@ -31329,8 +31329,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <obo:IAO_0000115>A Measles-Mumps-Rubella vaccine that is live attenuated and manufactured by Merck &amp; Co, Inc. </obo:IAO_0000115>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: M-M-R II</rdfs:comment>
         <rdfs:comment>Product Name: Measles, Mumps, and Rubella Virus Vaccine, Live</rdfs:comment>
+        <rdfs:comment>Trade Name: M-M-R II</rdfs:comment>
         <rdfs:label>M-M-R II</rdfs:label>
         <rdfs:seeAlso>CVX: 03</rdfs:seeAlso>
     </owl:Class>
@@ -31362,8 +31362,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <obo:IAO_0000115>A Measles-Mumps vaccine that is manufactured by Merck and used for human. </obo:IAO_0000115>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: M-M-Vax</rdfs:comment>
         <rdfs:comment>Product Name: Measles and Mumps Virus Vaccine, Live</rdfs:comment>
+        <rdfs:comment>Trade Name: M-M-Vax</rdfs:comment>
         <rdfs:label>M-M-Vax</rdfs:label>
     </owl:Class>
     
@@ -31413,8 +31413,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <obo:IAO_0000118>Meningococcal Polysaccharide (Serogroups A, C, Y and W-135) Diphtheria Toxoid Conjugate Vaccine</obo:IAO_0000118>
         <obo:IAO_0000119>WEB: http://www.fda.gov/BiologicsBloodVaccines/Vaccines/ApprovedProducts/ucm176044.htm</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Menactra</rdfs:comment>
         <rdfs:comment>Product Name: Meningococcal Polysaccharide (Serogroups A, C, Y and W-135) Diphtheria Toxoid Conjugate Vaccine</rdfs:comment>
+        <rdfs:comment>Trade Name: Menactra</rdfs:comment>
         <rdfs:label>Menactra</rdfs:label>
         <rdfs:seeAlso>CVX: 114</rdfs:seeAlso>
     </owl:Class>
@@ -31451,8 +31451,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Menomune-A/C/Y/W-135</rdfs:comment>
         <rdfs:comment>Product Name: Meningococcal Polysaccharide Vaccine, Groups A, C, Y and W-135 Combined</rdfs:comment>
+        <rdfs:comment>Trade Name: Menomune-A/C/Y/W-135</rdfs:comment>
         <rdfs:label>Menomune A C Y W135</rdfs:label>
         <rdfs:seeAlso>CVX: 32</rdfs:seeAlso>
     </owl:Class>
@@ -31495,8 +31495,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Meruvax II</rdfs:comment>
         <rdfs:comment>Product Name: Rubella Virus Vaccine Live</rdfs:comment>
+        <rdfs:comment>Trade Name: Meruvax II</rdfs:comment>
         <rdfs:label>Meruvax II</rdfs:label>
         <rdfs:seeAlso>CVX: 06</rdfs:seeAlso>
     </owl:Class>
@@ -31527,8 +31527,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Mumpsvax</rdfs:comment>
         <rdfs:comment>Product Name: Mumps Virus Vaccine Live</rdfs:comment>
+        <rdfs:comment>Trade Name: Mumpsvax</rdfs:comment>
         <rdfs:label>Mumpsvax</rdfs:label>
         <rdfs:seeAlso>CVX: 07</rdfs:seeAlso>
     </owl:Class>
@@ -31559,8 +31559,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Mycobax</rdfs:comment>
         <rdfs:comment>Product Name: BCG Vaccine</rdfs:comment>
+        <rdfs:comment>Trade Name: Mycobax</rdfs:comment>
         <rdfs:label>Mycobax</rdfs:label>
         <rdfs:seeAlso>CVX: 19</rdfs:seeAlso>
     </owl:Class>
@@ -31605,8 +31605,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM305079.pdf</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Fluzone</rdfs:comment>
         <rdfs:comment>Product Name: Influenza Virus Vaccine, Trivalent, Types A and B</rdfs:comment>
+        <rdfs:comment>Trade Name: Fluzone</rdfs:comment>
         <rdfs:label xml:lang="en">Fluzone High-dose</rdfs:label>
         <rdfs:seeAlso>CVX: 140</rdfs:seeAlso>
         <rdfs:seeAlso>CVX: 141</rdfs:seeAlso>
@@ -31697,8 +31697,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Pediarix</rdfs:comment>
         <rdfs:comment>Product Name: Diphtheria &amp; Tetanus Toxoids &amp; Acellular Pertussis Vaccine Adsorbed, Hepatitis B (recombinant) and Inactivated Poliovirus Vaccine Combined</rdfs:comment>
+        <rdfs:comment>Trade Name: Pediarix</rdfs:comment>
         <rdfs:label>Pediarix</rdfs:label>
         <rdfs:seeAlso>CVX: 110</rdfs:seeAlso>
     </owl:Class>
@@ -31735,8 +31735,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: PedvaxHIB</rdfs:comment>
         <rdfs:comment>Product Name: Haemophilus b Conjugate Vaccine (Meningococcal Protein Conjugate)</rdfs:comment>
+        <rdfs:comment>Trade Name: PedvaxHIB</rdfs:comment>
         <rdfs:label>PedvaxHIB</rdfs:label>
         <rdfs:seeAlso>CVX: 49</rdfs:seeAlso>
         <rdfs:seeAlso>PMID:</rdfs:seeAlso>
@@ -31787,8 +31787,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Pentacel</rdfs:comment>
         <rdfs:comment>Product Name: Diphtheria and Tetanus Toxoids and Acellular Pertussis Adsorbed, Inactivated Poliovirus and Haemophilus b Conjugate (Tetanus Toxoid Conjugate) Vaccine</rdfs:comment>
+        <rdfs:comment>Trade Name: Pentacel</rdfs:comment>
         <rdfs:label>Pentacel</rdfs:label>
         <rdfs:seeAlso>CVX: 120</rdfs:seeAlso>
     </owl:Class>
@@ -31862,8 +31862,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Pneumovax 23</rdfs:comment>
         <rdfs:comment>Product Name: Pneumococcal Vaccine, Polyvalent</rdfs:comment>
+        <rdfs:comment>Trade Name: Pneumovax 23</rdfs:comment>
         <rdfs:label>Pneumovax 23 (USA)</rdfs:label>
         <rdfs:seeAlso>CVX: 33</rdfs:seeAlso>
     </owl:Class>
@@ -31894,8 +31894,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Poliovax</rdfs:comment>
         <rdfs:comment>Product Name: Poliovirus Vaccine Inactivated (Human Diploid Cell)</rdfs:comment>
+        <rdfs:comment>Trade Name: Poliovax</rdfs:comment>
         <rdfs:label>Poliovax</rdfs:label>
     </owl:Class>
     
@@ -31937,8 +31937,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Prevnar</rdfs:comment>
         <rdfs:comment>Product Name: Pneumococcal 7-valent Conjugate Vaccine (Diphtheria CRM197 Protein)</rdfs:comment>
+        <rdfs:comment>Trade Name: Prevnar</rdfs:comment>
         <rdfs:label>Prevnar (USA)</rdfs:label>
         <rdfs:seeAlso>CVX: 100</rdfs:seeAlso>
     </owl:Class>
@@ -31977,8 +31977,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://www.merck.com/product/usa/pi_circulars/p/proquad/proquad_pi.pdf</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: ProQuad</rdfs:comment>
         <rdfs:comment>Product Name: Measles, Mumps, Rubella and Varicella Virus Vaccine Live</rdfs:comment>
+        <rdfs:comment>Trade Name: ProQuad</rdfs:comment>
         <rdfs:label>ProQuad</rdfs:label>
         <rdfs:seeAlso>CVX: 94</rdfs:seeAlso>
     </owl:Class>
@@ -32065,8 +32065,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://www.cdc.gov/vaccines/pubs/pinkbook/downloads/appendices/B/excipient-table-2.pdf</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: RabAvert</rdfs:comment>
         <rdfs:comment>Product Name: Rabies Vaccine</rdfs:comment>
+        <rdfs:comment>Trade Name: RabAvert</rdfs:comment>
         <rdfs:label>RabAvert</rdfs:label>
         <rdfs:seeAlso>CVX: 18</rdfs:seeAlso>
     </owl:Class>
@@ -32145,8 +32145,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: RotaTeq</rdfs:comment>
         <rdfs:comment>Product Name: Rotavirus Vaccine, Live, Oral, Pentavalent</rdfs:comment>
+        <rdfs:comment>Trade Name: RotaTeq</rdfs:comment>
         <rdfs:label>RotaTeq</rdfs:label>
         <rdfs:seeAlso>CVX: 116</rdfs:seeAlso>
     </owl:Class>
@@ -32177,8 +32177,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: TENIVAC</rdfs:comment>
         <rdfs:comment>Product Name: Tetanus &amp; Diphtheria Toxoids Adsorbed for Adult Use</rdfs:comment>
+        <rdfs:comment>Trade Name: TENIVAC</rdfs:comment>
         <rdfs:label>TENIVAC</rdfs:label>
     </owl:Class>
     
@@ -32221,8 +32221,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <obo:IAO_0000116>Intravesical TICE BCG has been used as a therapy for, and to prevent recurrence of, tumors in patients with carcinoma in situ (CIS) of the urinary bladder, and to prevent recurrence of Stage Ta T1 papillary tumors of the bladder at high risk of recurrence. Refernce URL: http://www.ticebcg.com/Consumer/aboutTice/index.asp</obo:IAO_0000116>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: TICE BCG</rdfs:comment>
         <rdfs:comment>Product Name: BCG Vaccine</rdfs:comment>
+        <rdfs:comment>Trade Name: TICE BCG</rdfs:comment>
         <rdfs:label>TICE BCG</rdfs:label>
         <rdfs:seeAlso>CVX: 19</rdfs:seeAlso>
     </owl:Class>
@@ -32259,8 +32259,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: TYPHIM Vi</rdfs:comment>
         <rdfs:comment>Product Name: Typhoid Vi Polysaccharide Vaccine</rdfs:comment>
+        <rdfs:comment>Trade Name: TYPHIM Vi</rdfs:comment>
         <rdfs:label>TYPHIM Vi</rdfs:label>
         <rdfs:seeAlso>CVX: 101</rdfs:seeAlso>
     </owl:Class>
@@ -32382,8 +32382,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Tripedia</rdfs:comment>
         <rdfs:comment>Product Name: Diphtheria &amp; Tetanus Toxoids &amp; Acellular Pertussis Vaccine Adsorbed</rdfs:comment>
+        <rdfs:comment>Trade Name: Tripedia</rdfs:comment>
         <rdfs:label>Tripedia</rdfs:label>
         <rdfs:seeAlso>CVX: 20</rdfs:seeAlso>
     </owl:Class>
@@ -32426,8 +32426,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Twinrix</rdfs:comment>
         <rdfs:comment>Product Name: Hepatitis A Inactivated and Hepatitis B (Recombinant) Vaccine</rdfs:comment>
+        <rdfs:comment>Trade Name: Twinrix</rdfs:comment>
         <rdfs:label>Twinrix</rdfs:label>
         <rdfs:seeAlso>CVX: 104</rdfs:seeAlso>
     </owl:Class>
@@ -32470,8 +32470,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Varivax</rdfs:comment>
         <rdfs:comment>Product Name: Varicella Virus Vaccine Live</rdfs:comment>
+        <rdfs:comment>Trade Name: Varivax</rdfs:comment>
         <rdfs:label>Varivax</rdfs:label>
         <rdfs:seeAlso>CVX: 21</rdfs:seeAlso>
     </owl:Class>
@@ -32508,8 +32508,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Vivotif</rdfs:comment>
         <rdfs:comment>Product Name: Typhoid Vaccine Live Oral Ty21a</rdfs:comment>
+        <rdfs:comment>Trade Name: Vivotif</rdfs:comment>
         <rdfs:label>Vivotif (USA)</rdfs:label>
         <rdfs:seeAlso>CVX: 25</rdfs:seeAlso>
     </owl:Class>
@@ -32559,8 +32559,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000119>http://www.cdc.gov/vaccines/pubs/pinkbook/downloads/appendices/B/excipient-table-2.pdf</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: YF-Vax</rdfs:comment>
         <rdfs:comment>Product Name: Yellow Fever Vaccine</rdfs:comment>
+        <rdfs:comment>Trade Name: YF-Vax</rdfs:comment>
         <rdfs:label>YF-Vax</rdfs:label>
         <rdfs:seeAlso>CVX: 37</rdfs:seeAlso>
     </owl:Class>
@@ -32622,8 +32622,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Zostavax</rdfs:comment>
         <rdfs:comment>Product Name: Zoster Vaccine, Live, (Oka/Merck)</rdfs:comment>
+        <rdfs:comment>Trade Name: Zostavax</rdfs:comment>
         <rdfs:label>Zostavax</rdfs:label>
         <rdfs:seeAlso>CVX: 121</rdfs:seeAlso>
     </owl:Class>
@@ -32965,8 +32965,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <obo:IAO_0000118>Meningococcal Polysaccharide (Serogroups A, C, Y and W-135) Diphtheria Toxoid Conjugate Vaccine injection 0.5mL vial</obo:IAO_0000118>
         <obo:IAO_0000119>WEB: http://www.fda.gov/BiologicsBloodVaccines/Vaccines/ApprovedProducts/ucm176044.htm</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <rdfs:comment>Trade Name: Menactra</rdfs:comment>
         <rdfs:comment>Product Name: Meningococcal Polysaccharide (Serogroups A, C, Y and W-135) Diphtheria Toxoid Conjugate Vaccine  injection 0.5mL vial</rdfs:comment>
+        <rdfs:comment>Trade Name: Menactra</rdfs:comment>
         <rdfs:label>Menactra injection 0.5mL vial</rdfs:label>
         <rdfs:seeAlso>SNOMEDCT: 416532007; UMLS_CUI:C1563043</rdfs:seeAlso>
     </owl:Class>
@@ -33825,6 +33825,7 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
     <!-- http://purl.obolibrary.org/obo/VO_0000667 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000667">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000609"/>
         <obo:IAO_0000115>a vaccine against human papillomavirus infection</obo:IAO_0000115>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
@@ -47098,8 +47099,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <rdfs:label>United States Minor Outlying Islands</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000293">
-        <obo:IAO_0000111 xml:lang="en">has_specified_input</obo:IAO_0000111>
         <obo:IAO_0000111>has_specified_input</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">has_specified_input</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">see is_input_of example_of_usage</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of.</obo:IAO_0000115>
@@ -47117,8 +47118,8 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000299">
         <obo:IAO_0000111>has specified output</obo:IAO_0000111>
-        <obo:IAO_0000111 xml:lang="en">has_specified_output</obo:IAO_0000111>
         <obo:IAO_0000111>has_specified_output</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">has_specified_output</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">The inverse property of is specified output of</obo:IAO_0000115>
@@ -48769,5 +48770,5 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
 
 
 
-<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 
