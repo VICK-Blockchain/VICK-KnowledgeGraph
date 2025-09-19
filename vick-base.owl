@@ -104,9 +104,6 @@
         <Class IRI="#Administration_Processes"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#AgeOfEligibility"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#ApartmentNumber"/>
     </Declaration>
     <Declaration>
@@ -155,25 +152,7 @@
         <Class IRI="#Indentifiers"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MinIntervalBetween"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#MinOverdueAge"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#MinRecAge"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#MinRecInterval"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#MinValidInterval"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Name"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OverdueIntervalBetween"/>
     </Declaration>
     <Declaration>
         <Class IRI="#State"/>
@@ -291,6 +270,27 @@
     </Declaration>
     <Declaration>
         <Class IRI="#VICK_0000042"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000043"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000045"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000046"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000047"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000048"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000049"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000050"/>
     </Declaration>
     <Declaration>
         <Class IRI="#VICK_0000222"/>
@@ -458,9 +458,6 @@
         <Class IRI="#VICK_0000285"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Vaccination_Schedules"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#ZipCode"/>
     </Declaration>
     <Declaration>
@@ -497,13 +494,13 @@
         <ObjectProperty IRI="#placed_on"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#stores"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#VICK_0000000"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="http://purl.obolibrary.org/obo/VICO_0000054"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#VICK_0000044"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/VO_0000695"/>
@@ -630,6 +627,13 @@
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/VO_0000001"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000067"/>
+            <Class IRI="#VICK_0000043"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/VO_0000001"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/OMRSE_00000068"/>
             <Class IRI="#VICK_0000222"/>
         </ObjectSomeValuesFrom>
@@ -684,10 +688,6 @@
     <SubClassOf>
         <Class IRI="#Administration_Processes"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000011"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#AgeOfEligibility"/>
-        <Class IRI="#Vaccination_Schedules"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ApartmentNumber"/>
@@ -803,32 +803,8 @@
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000314"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MinIntervalBetween"/>
-        <Class IRI="#Vaccination_Schedules"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#MinOverdueAge"/>
-        <Class IRI="#Vaccination_Schedules"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#MinRecAge"/>
-        <Class IRI="#Vaccination_Schedules"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#MinRecInterval"/>
-        <Class IRI="#Vaccination_Schedules"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#MinValidInterval"/>
-        <Class IRI="#Vaccination_Schedules"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Name"/>
         <Class IRI="#Indentifiers"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OverdueIntervalBetween"/>
-        <Class IRI="#Vaccination_Schedules"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#State"/>
@@ -1018,6 +994,34 @@
     <SubClassOf>
         <Class IRI="#VICK_0000042"/>
         <Class IRI="#Biochemical_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000043"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000045"/>
+        <Class IRI="#VICK_0000043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000046"/>
+        <Class IRI="#VICK_0000043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000047"/>
+        <Class IRI="#VICK_0000043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000048"/>
+        <Class IRI="#VICK_0000043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000049"/>
+        <Class IRI="#VICK_0000043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000050"/>
+        <Class IRI="#VICK_0000043"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VICK_0000222"/>
@@ -1465,10 +1469,6 @@
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000182"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Vaccination_Schedules"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000008"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#ZipCode"/>
         <Class IRI="#Geographic_Location"/>
     </SubClassOf>
@@ -1504,20 +1504,14 @@
         <ObjectProperty IRI="#VICK_0000257"/>
         <Class IRI="http://purl.obolibrary.org/obo/SYMP_0000462"/>
     </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#VICK_0000044"/>
+        <Class IRI="#VICK_0000043"/>
+    </DataPropertyDomain>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Administration_Processes</IRI>
         <Literal xml:lang="en">administration process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#AgeOfEligibility</IRI>
-        <Literal xml:lang="en">the age in which a person is eligible to receive a vaccine</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#AgeOfEligibility</IRI>
-        <Literal xml:lang="en">age of eligibility</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
@@ -1721,56 +1715,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#MinIntervalBetween</IRI>
-        <Literal xml:lang="en">the minimum interval of time for successive doses of a vaccine to be administeres</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#MinIntervalBetween</IRI>
-        <Literal xml:lang="en">min interval between</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#MinOverdueAge</IRI>
-        <Literal xml:lang="en">minimum age it is recommended for a vaccine to be administeres</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#MinOverdueAge</IRI>
-        <Literal xml:lang="en">min overdue age</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#MinRecAge</IRI>
-        <Literal xml:lang="en">minimum age required to receive the immunization</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#MinRecAge</IRI>
-        <Literal xml:lang="en">min rec age</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#MinRecInterval</IRI>
-        <Literal xml:lang="en">the minimum reccomended interval for administration</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#MinRecInterval</IRI>
-        <Literal xml:lang="en">min rec interval</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#MinValidInterval</IRI>
-        <Literal xml:lang="en">the minimum interval of time for successive doses of a vaccine to be administeres</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#MinValidInterval</IRI>
-        <Literal xml:lang="en">min valid interval</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
         <IRI>#Name</IRI>
         <Literal xml:lang="en">a combination of words by which a person is called</Literal>
     </AnnotationAssertion>
@@ -1783,16 +1727,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Name</IRI>
         <Literal xml:lang="en">name</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#OverdueIntervalBetween</IRI>
-        <Literal xml:lang="en">interval of time where it is not recommended to administer successive doses</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OverdueIntervalBetween</IRI>
-        <Literal xml:lang="en">overdue interval between</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
@@ -2215,6 +2149,81 @@
         <Literal xml:lang="en">antibodies</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#VICK_0000043</IRI>
+        <Literal xml:lang="en">An action specification comprising the number of doses and their timing for a vaccination of an individual organism against a specific infectious agent.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000043</IRI>
+        <Literal xml:lang="en">vaccination schedule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000044</IRI>
+        <Literal xml:lang="en">has vaccination schedule value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#VICK_0000045</IRI>
+        <Literal xml:lang="en">the age in which a person is eligible to receive a vaccine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000045</IRI>
+        <Literal xml:lang="en">age of eligibility</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#VICK_0000046</IRI>
+        <Literal xml:lang="en">the minimum interval of time for successive doses of a vaccine to be administeres</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000046</IRI>
+        <Literal xml:lang="en">min interval between</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#VICK_0000047</IRI>
+        <Literal xml:lang="en">minimum age it is recommended for a vaccine to be administeres</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000047</IRI>
+        <Literal xml:lang="en">min overdue age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#VICK_0000048</IRI>
+        <Literal xml:lang="en">minimum age required to receive the immunization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000048</IRI>
+        <Literal xml:lang="en">min rec age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#VICK_0000049</IRI>
+        <Literal xml:lang="en">the minimum reccomended interval for administration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000049</IRI>
+        <Literal xml:lang="en">min rec interval</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
+        <IRI>#VICK_0000050</IRI>
+        <Literal xml:lang="en">interval of time where it is not recommended to administer successive doses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000050</IRI>
+        <Literal xml:lang="en">overdue interval between</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#VICK_0000220</IRI>
         <Literal xml:lang="en">is reported by</Literal>
@@ -2576,16 +2585,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#Vaccination_Schedules</IRI>
-        <Literal xml:lang="en">An action specification comprising the number of doses and their timing for a vaccination of an individual organism against a specific infectious agent.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Vaccination_Schedules</IRI>
-        <Literal xml:lang="en">vaccination schedule</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
         <IRI>#ZipCode</IRI>
         <Literal xml:lang="en">a system used in the U.S. consisting of a five-digit code </Literal>
     </AnnotationAssertion>
@@ -2608,11 +2607,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#placed_on</IRI>
         <Literal xml:lang="en">placed on</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#stores</IRI>
-        <Literal xml:lang="en">stores</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>

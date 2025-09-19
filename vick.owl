@@ -6529,14 +6529,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
-    <!-- http://purl.org/vick/vick.owl#stores -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/vick/vick.owl#stores">
-        <rdfs:label xml:lang="en">stores</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://www.co-ode.org/ontologies/ont.owl#VICK_0000000 -->
 
     <owl:ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#VICK_0000000">
@@ -6658,6 +6650,15 @@ For example, A and B may be gene products and binding of B by A positively regul
 
     <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/VICO_0000054">
         <rdfs:label xml:lang="en">hasAge</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000044 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/vick/vick.owl#VICK_0000044">
+        <rdfs:domain rdf:resource="http://purl.org/vick/vick.owl#VICK_0000043"/>
+        <rdfs:label xml:lang="en">has vaccination schedule value</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -30012,6 +30013,12 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000067"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/vick/vick.owl#VICK_0000043"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000068"/>
                 <owl:someValuesFrom rdf:resource="http://purl.org/vick/vick.owl#VICK_0000222"/>
             </owl:Restriction>
@@ -38115,16 +38122,6 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
     
 
 
-    <!-- http://purl.org/vick/vick.owl#AgeOfEligibility -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#AgeOfEligibility">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Vaccination_Schedules"/>
-        <external_byhand:definition xml:lang="en">the age in which a person is eligible to receive a vaccine</external_byhand:definition>
-        <rdfs:label xml:lang="en">age of eligibility</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.org/vick/vick.owl#ApartmentNumber -->
 
     <owl:Class rdf:about="http://purl.org/vick/vick.owl#ApartmentNumber">
@@ -38335,56 +38332,6 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
     
 
 
-    <!-- http://purl.org/vick/vick.owl#MinIntervalBetween -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#MinIntervalBetween">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Vaccination_Schedules"/>
-        <external_byhand:definition xml:lang="en">the minimum interval of time for successive doses of a vaccine to be administeres</external_byhand:definition>
-        <rdfs:label xml:lang="en">min interval between</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#MinOverdueAge -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#MinOverdueAge">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Vaccination_Schedules"/>
-        <external_byhand:definition xml:lang="en">minimum age it is recommended for a vaccine to be administeres</external_byhand:definition>
-        <rdfs:label xml:lang="en">min overdue age</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#MinRecAge -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#MinRecAge">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Vaccination_Schedules"/>
-        <external_byhand:definition xml:lang="en">minimum age required to receive the immunization</external_byhand:definition>
-        <rdfs:label xml:lang="en">min rec age</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#MinRecInterval -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#MinRecInterval">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Vaccination_Schedules"/>
-        <external_byhand:definition xml:lang="en">the minimum reccomended interval for administration</external_byhand:definition>
-        <rdfs:label xml:lang="en">min rec interval</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#MinValidInterval -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#MinValidInterval">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Vaccination_Schedules"/>
-        <external_byhand:definition xml:lang="en">the minimum interval of time for successive doses of a vaccine to be administeres</external_byhand:definition>
-        <rdfs:label xml:lang="en">min valid interval</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.org/vick/vick.owl#Name -->
 
     <owl:Class rdf:about="http://purl.org/vick/vick.owl#Name">
@@ -38392,16 +38339,6 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <external_byhand:definition xml:lang="en">a combination of words by which a person is called</external_byhand:definition>
         <oboInOwl:id>https://www.codamono.com/biointerchange/gfvo#Name</oboInOwl:id>
         <rdfs:label xml:lang="en">name</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#OverdueIntervalBetween -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#OverdueIntervalBetween">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Vaccination_Schedules"/>
-        <external_byhand:definition xml:lang="en">interval of time where it is not recommended to administer successive doses</external_byhand:definition>
-        <rdfs:label xml:lang="en">overdue interval between</rdfs:label>
     </owl:Class>
     
 
@@ -38836,6 +38773,76 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <external_byhand:definition xml:lang="en">Immunoglobulin molecules having a specific amino acid sequence by virtue of which they interact only with the ANTIGEN (or a very similar shape) that induced their synthesis in cells of the lymphoid series </external_byhand:definition>
         <oboInOwl:id>http://purl.bioontology.org/ontology/MESH/D000906</oboInOwl:id>
         <rdfs:label xml:lang="en">antibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000043 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <external_byhand:definition xml:lang="en">An action specification comprising the number of doses and their timing for a vaccination of an individual organism against a specific infectious agent.</external_byhand:definition>
+        <rdfs:label xml:lang="en">vaccination schedule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000045 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000045">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#VICK_0000043"/>
+        <external_byhand:definition xml:lang="en">the age in which a person is eligible to receive a vaccine</external_byhand:definition>
+        <rdfs:label xml:lang="en">age of eligibility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000046 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000046">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#VICK_0000043"/>
+        <external_byhand:definition xml:lang="en">the minimum interval of time for successive doses of a vaccine to be administeres</external_byhand:definition>
+        <rdfs:label xml:lang="en">min interval between</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000047 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000047">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#VICK_0000043"/>
+        <external_byhand:definition xml:lang="en">minimum age it is recommended for a vaccine to be administeres</external_byhand:definition>
+        <rdfs:label xml:lang="en">min overdue age</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000048 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000048">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#VICK_0000043"/>
+        <external_byhand:definition xml:lang="en">minimum age required to receive the immunization</external_byhand:definition>
+        <rdfs:label xml:lang="en">min rec age</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000049 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000049">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#VICK_0000043"/>
+        <external_byhand:definition xml:lang="en">the minimum reccomended interval for administration</external_byhand:definition>
+        <rdfs:label xml:lang="en">min rec interval</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000050 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000050">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#VICK_0000043"/>
+        <external_byhand:definition xml:lang="en">interval of time where it is not recommended to administer successive doses</external_byhand:definition>
+        <rdfs:label xml:lang="en">overdue interval between</rdfs:label>
     </owl:Class>
     
 
@@ -39553,16 +39560,6 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
     <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000285">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000182"/>
         <rdfs:label xml:lang="en">allergic reaction history</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#Vaccination_Schedules -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#Vaccination_Schedules">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
-        <external_byhand:definition xml:lang="en">An action specification comprising the number of doses and their timing for a vaccination of an individual organism against a specific infectious agent.</external_byhand:definition>
-        <rdfs:label xml:lang="en">vaccination schedule</rdfs:label>
     </owl:Class>
     
 
