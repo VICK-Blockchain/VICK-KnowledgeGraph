@@ -38125,17 +38125,6 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
     
 
 
-    <!-- http://purl.org/vick/vick.owl#Antibodies -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#Antibodies">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Biochemical_Entity"/>
-        <external_byhand:definition xml:lang="en">Immunoglobulin molecules having a specific amino acid sequence by virtue of which they interact only with the ANTIGEN (or a very similar shape) that induced their synthesis in cells of the lymphoid series </external_byhand:definition>
-        <oboInOwl:id>http://purl.bioontology.org/ontology/MESH/D000906</oboInOwl:id>
-        <rdfs:label xml:lang="en">antibodies</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.org/vick/vick.owl#ApartmentNumber -->
 
     <owl:Class rdf:about="http://purl.org/vick/vick.owl#ApartmentNumber">
@@ -38189,17 +38178,6 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
     
 
 
-    <!-- http://purl.org/vick/vick.owl#Body -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#Body">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Biological_Entity"/>
-        <external_byhand:definition xml:lang="en">the physical structure of a person</external_byhand:definition>
-        <oboInOwl:id>http://purl.org/sig/ont/fma/fma256135</oboInOwl:id>
-        <rdfs:label xml:lang="en">body</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.org/vick/vick.owl#BuildingNumber -->
 
     <owl:Class rdf:about="http://purl.org/vick/vick.owl#BuildingNumber">
@@ -38207,17 +38185,6 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <external_byhand:definition xml:lang="en">number corresponding to a person&apos;s apartment building</external_byhand:definition>
         <oboInOwl:id>http://purl.bioontology.org/ontology/HL7/C1550714</oboInOwl:id>
         <rdfs:label xml:lang="en">building number</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#Carcinogen -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#Carcinogen">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Biological_Entity"/>
-        <external_byhand:definition xml:lang="en">a molecule or organism which can lead to cancer</external_byhand:definition>
-        <oboInOwl:id>http://purl.obolibrary.org/obo/NCIT_C347</oboInOwl:id>
-        <rdfs:label xml:lang="en">carcinogen</rdfs:label>
     </owl:Class>
     
 
@@ -38263,76 +38230,6 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
     
 
 
-    <!-- http://purl.org/vick/vick.owl#E1 -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#E1">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Protein"/>
-        <external_byhand:definition xml:lang="en">protein which facilitates the early spead of papillomavirus</external_byhand:definition>
-        <rdfs:label xml:lang="en">E1</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#E2 -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#E2">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Protein"/>
-        <external_byhand:definition xml:lang="en">protein which facilitates the early spead of papillomavirus</external_byhand:definition>
-        <rdfs:label xml:lang="en">E2</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#E3 -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#E3">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Protein"/>
-        <external_byhand:definition xml:lang="en">protein which facilitates the early spead of papillomavirus</external_byhand:definition>
-        <rdfs:label xml:lang="en">E3</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#E4 -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#E4">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Protein"/>
-        <external_byhand:definition xml:lang="en">protein which facilitates the early spead of papillomavirus</external_byhand:definition>
-        <rdfs:label xml:lang="en">E4</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#E5 -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#E5">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Protein"/>
-        <external_byhand:definition xml:lang="en">protein which facilitates the early spead of papillomavirus</external_byhand:definition>
-        <rdfs:label xml:lang="en">E5</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#E6 -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#E6">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Protein"/>
-        <external_byhand:definition xml:lang="en">protein which facilitates the early spead of papillomavirus</external_byhand:definition>
-        <rdfs:label xml:lang="en">E6</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#E7 -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#E7">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Protein"/>
-        <external_byhand:definition xml:lang="en">protein which facilitates the early spead of papillomavirus</external_byhand:definition>
-        <rdfs:label xml:lang="en">E7</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.org/vick/vick.owl#EmailAddress -->
 
     <owl:Class rdf:about="http://purl.org/vick/vick.owl#EmailAddress">
@@ -38351,16 +38248,6 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <external_byhand:definition xml:lang="en">A reference to a place on the Earth, by its name or by its geographical location.</external_byhand:definition>
         <oboInOwl:id>http://purl.obolibrary.org/obo/GAZ_00000448</oboInOwl:id>
         <rdfs:label xml:lang="en">geographic location</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#HPVEntity -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#HPVEntity">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Biochemical_Entity"/>
-        <external_byhand:definition xml:lang="en">component related to HPV</external_byhand:definition>
-        <rdfs:label xml:lang="en">HPV entity</rdfs:label>
     </owl:Class>
     
 
@@ -38448,26 +38335,6 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
     
 
 
-    <!-- http://purl.org/vick/vick.owl#L1 -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#L1">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Protein"/>
-        <external_byhand:definition xml:lang="en">gene and protein which encodes for HPV strain</external_byhand:definition>
-        <rdfs:label xml:lang="en">L1</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#L2 -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#L2">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Protein"/>
-        <external_byhand:definition xml:lang="en">gene and protein which encodes for HPV strain</external_byhand:definition>
-        <rdfs:label xml:lang="en">L2</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.org/vick/vick.owl#MinIntervalBetween -->
 
     <owl:Class rdf:about="http://purl.org/vick/vick.owl#MinIntervalBetween">
@@ -38535,27 +38402,6 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Vaccination_Schedules"/>
         <external_byhand:definition xml:lang="en">interval of time where it is not recommended to administer successive doses</external_byhand:definition>
         <rdfs:label xml:lang="en">overdue interval between</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#PapillomavirusParticles -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#PapillomavirusParticles">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#HPVEntity"/>
-        <external_byhand:definition xml:lang="en">the infectious units of papillomaviruses</external_byhand:definition>
-        <rdfs:label xml:lang="en">papillomavirus particles</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#Protein -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#Protein">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#HPVEntity"/>
-        <external_byhand:definition xml:lang="en">A physical entity consisting of a sequence of amino acids; a protein monomer; a single polypeptide chain. </external_byhand:definition>
-        <oboInOwl:id>http://www.biopax.org/release/biopax-level3.owl#Protein</oboInOwl:id>
-        <rdfs:label xml:lang="en">protein</rdfs:label>
     </owl:Class>
     
 
@@ -38848,6 +38694,148 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000295"/>
         <oboInOwl:id>http://purl.obolibrary.org/obo/OMRSE_00000219</oboInOwl:id>
         <rdfs:label xml:lang="en">White</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000029 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000029">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Biochemical_Entity"/>
+        <external_byhand:definition xml:lang="en">component related to HPV</external_byhand:definition>
+        <rdfs:label xml:lang="en">HPV entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000030 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000030">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#VICK_0000029"/>
+        <external_byhand:definition xml:lang="en">the infectious units of papillomaviruses</external_byhand:definition>
+        <rdfs:label xml:lang="en">papillomavirus particles</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000031 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#VICK_0000029"/>
+        <external_byhand:definition xml:lang="en">A physical entity consisting of a sequence of amino acids; a protein monomer; a single polypeptide chain. </external_byhand:definition>
+        <oboInOwl:id>http://www.biopax.org/release/biopax-level3.owl#Protein</oboInOwl:id>
+        <rdfs:label xml:lang="en">protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000032 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000032">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#VICK_0000029"/>
+        <external_byhand:definition xml:lang="en">non-infectious, virus-derived structures that mimic the form and size of a virus but lack the genetic material necessary for replication</external_byhand:definition>
+        <rdfs:label xml:lang="en">virus-like particles</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000033 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#VICK_0000031"/>
+        <external_byhand:definition xml:lang="en">protein which facilitates the early spead of papillomavirus</external_byhand:definition>
+        <rdfs:label xml:lang="en">E1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000034 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000034">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#VICK_0000031"/>
+        <external_byhand:definition xml:lang="en">protein which facilitates the early spead of papillomavirus</external_byhand:definition>
+        <rdfs:label xml:lang="en">E2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000035 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000035">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#VICK_0000031"/>
+        <external_byhand:definition xml:lang="en">protein which facilitates the early spead of papillomavirus</external_byhand:definition>
+        <rdfs:label xml:lang="en">E3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000036 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000036">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#VICK_0000031"/>
+        <external_byhand:definition xml:lang="en">protein which facilitates the early spead of papillomavirus</external_byhand:definition>
+        <rdfs:label xml:lang="en">E4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000037 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000037">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#VICK_0000031"/>
+        <external_byhand:definition xml:lang="en">protein which facilitates the early spead of papillomavirus</external_byhand:definition>
+        <rdfs:label xml:lang="en">E5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000038 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000038">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#VICK_0000031"/>
+        <external_byhand:definition xml:lang="en">protein which facilitates the early spead of papillomavirus</external_byhand:definition>
+        <rdfs:label xml:lang="en">E6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000039 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000039">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#VICK_0000031"/>
+        <external_byhand:definition xml:lang="en">protein which facilitates the early spead of papillomavirus</external_byhand:definition>
+        <rdfs:label xml:lang="en">E7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000040 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000040">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#VICK_0000031"/>
+        <external_byhand:definition xml:lang="en">gene and protein which encodes for HPV strain</external_byhand:definition>
+        <rdfs:label xml:lang="en">L1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000041 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000041">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#VICK_0000031"/>
+        <external_byhand:definition xml:lang="en">gene and protein which encodes for HPV strain</external_byhand:definition>
+        <rdfs:label xml:lang="en">L2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000042 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000042">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Biochemical_Entity"/>
+        <external_byhand:definition xml:lang="en">Immunoglobulin molecules having a specific amino acid sequence by virtue of which they interact only with the ANTIGEN (or a very similar shape) that induced their synthesis in cells of the lymphoid series </external_byhand:definition>
+        <oboInOwl:id>http://purl.bioontology.org/ontology/MESH/D000906</oboInOwl:id>
+        <rdfs:label xml:lang="en">antibodies</rdfs:label>
     </owl:Class>
     
 
@@ -39579,16 +39567,6 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
     
 
 
-    <!-- http://purl.org/vick/vick.owl#Virus-likeParticles -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#Virus-likeParticles">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#HPVEntity"/>
-        <external_byhand:definition xml:lang="en">non-infectious, virus-derived structures that mimic the form and size of a virus but lack the genetic material necessary for replication</external_byhand:definition>
-        <rdfs:label xml:lang="en">virus-like particles</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.org/vick/vick.owl#ZipCode -->
 
     <owl:Class rdf:about="http://purl.org/vick/vick.owl#ZipCode">
@@ -39596,22 +39574,6 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <external_byhand:definition xml:lang="en">a system used in the U.S. consisting of a five-digit code </external_byhand:definition>
         <oboInOwl:id>http://purl.obolibrary.org/obo/NCIT_C25720</oboInOwl:id>
         <rdfs:label xml:lang="en">zip code</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#site_of_injection -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#site_of_injection">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/vick/vick.owl#Body"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <external_byhand:definition xml:lang="en">The location on the body where the vaccine is given to the patient</external_byhand:definition>
-        <rdfs:label xml:lang="en">site of injection</rdfs:label>
     </owl:Class>
     
 
