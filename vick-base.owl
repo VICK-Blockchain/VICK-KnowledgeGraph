@@ -107,16 +107,10 @@
         <Class IRI="#AgeOfEligibility"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#AmericanIndianOrAlaskaNative"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Antibodies"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ApartmentNumber"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Asian"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Biochemical_Entity"/>
@@ -128,9 +122,6 @@
         <Class IRI="#Birthdate"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#BlackOrAfricanAmerican"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#BodilyProcess"/>
     </Declaration>
     <Declaration>
@@ -138,9 +129,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#BuildingNumber"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#CapabilityToConsent"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Carcinogen"/>
@@ -152,19 +140,10 @@
         <Class IRI="#ClinicAddress"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Consent"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Consent_Entity"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Country"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Digital_Address"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Disposition"/>
     </Declaration>
     <Declaration>
         <Class IRI="#E1"/>
@@ -191,25 +170,16 @@
         <Class IRI="#EmailAddress"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Ethnicity"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Geographic_Location"/>
     </Declaration>
     <Declaration>
         <Class IRI="#HPVEntity"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#HispanicOrLatino"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#HomeAddres"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ID"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#IdentifiersAndDemographics"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ImmuneResponse"/>
@@ -222,9 +192,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#L2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Medical_Events"/>
     </Declaration>
     <Declaration>
         <Class IRI="#MinIntervalBetween"/>
@@ -245,28 +212,13 @@
         <Class IRI="#Name"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#NativeHawaiianOrOtherPacificIslander"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#NotHispanicOrLatino"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#OverdueIntervalBetween"/>
     </Declaration>
     <Declaration>
         <Class IRI="#PapillomavirusParticles"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ParentalConsent"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Protein"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Race"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Signature"/>
     </Declaration>
     <Declaration>
         <Class IRI="#State"/>
@@ -276,9 +228,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Telephone"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Title"/>
     </Declaration>
     <Declaration>
         <Class IRI="#VICK_0000002"/>
@@ -324,6 +273,27 @@
     </Declaration>
     <Declaration>
         <Class IRI="#VICK_0000016"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000020"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000021"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000024"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000025"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000026"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000027"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000028"/>
     </Declaration>
     <Declaration>
         <Class IRI="#VICK_0000222"/>
@@ -497,9 +467,6 @@
         <Class IRI="#Virus-likeParticles"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#White"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#ZipCode"/>
     </Declaration>
     <Declaration>
@@ -603,6 +570,20 @@
         <Class IRI="http://purl.obolibrary.org/obo/VICO_0000016"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000235"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000293"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/VICO_0000016"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000235"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000295"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/VICO_0000016"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000235"/>
             <Class IRI="#EmailAddress"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -618,20 +599,6 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
             <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000076"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/VICO_0000016"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#VICK_0000000"/>
-            <Class IRI="#Ethnicity"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/VICO_0000016"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#VICK_0000000"/>
-            <Class IRI="#Race"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -732,20 +699,12 @@
         <Class IRI="#Vaccination_Schedules"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#AmericanIndianOrAlaskaNative"/>
-        <Class IRI="#Race"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Antibodies"/>
         <Class IRI="#Biochemical_Entity"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ApartmentNumber"/>
         <Class IRI="#Geographic_Location"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Asian"/>
-        <Class IRI="#Race"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Biochemical_Entity"/>
@@ -760,10 +719,6 @@
         <Class IRI="#Indentifiers"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#BlackOrAfricanAmerican"/>
-        <Class IRI="#Race"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#BodilyProcess"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
     </SubClassOf>
@@ -774,10 +729,6 @@
     <SubClassOf>
         <Class IRI="#BuildingNumber"/>
         <Class IRI="#Geographic_Location"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#CapabilityToConsent"/>
-        <Class IRI="#Consent_Entity"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Carcinogen"/>
@@ -792,24 +743,12 @@
         <Class IRI="#Geographic_Location"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Consent"/>
-        <Class IRI="#Consent_Entity"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Consent_Entity"/>
-        <Class IRI="#IdentifiersAndDemographics"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Country"/>
         <Class IRI="#Geographic_Location"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Digital_Address"/>
         <Class IRI="#Indentifiers"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Disposition"/>
-        <Class IRI="#Consent_Entity"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#E1"/>
@@ -844,20 +783,12 @@
         <Class IRI="#Digital_Address"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Ethnicity"/>
-        <Class IRI="#IdentifiersAndDemographics"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Geographic_Location"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000011"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HPVEntity"/>
         <Class IRI="#Biochemical_Entity"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HispanicOrLatino"/>
-        <Class IRI="#Ethnicity"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HomeAddres"/>
@@ -917,10 +848,6 @@
         <Class IRI="#Indentifiers"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#IdentifiersAndDemographics"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000020"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#ImmuneResponse"/>
         <Class IRI="#BodilyProcess"/>
     </SubClassOf>
@@ -935,10 +862,6 @@
     <SubClassOf>
         <Class IRI="#L2"/>
         <Class IRI="#Protein"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Medical_Events"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MinIntervalBetween"/>
@@ -965,14 +888,6 @@
         <Class IRI="#Indentifiers"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#NativeHawaiianOrOtherPacificIslander"/>
-        <Class IRI="#Race"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#NotHispanicOrLatino"/>
-        <Class IRI="#Ethnicity"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#OverdueIntervalBetween"/>
         <Class IRI="#Vaccination_Schedules"/>
     </SubClassOf>
@@ -981,20 +896,8 @@
         <Class IRI="#HPVEntity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ParentalConsent"/>
-        <Class IRI="#Consent_Entity"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Protein"/>
         <Class IRI="#HPVEntity"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Race"/>
-        <Class IRI="#IdentifiersAndDemographics"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Signature"/>
-        <Class IRI="#IdentifiersAndDemographics"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#State"/>
@@ -1007,10 +910,6 @@
     <SubClassOf>
         <Class IRI="#Telephone"/>
         <Class IRI="#Indentifiers"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Title"/>
-        <Class IRI="#IdentifiersAndDemographics"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VICK_0000002"/>
@@ -1104,6 +1003,34 @@
     <SubClassOf>
         <Class IRI="#VICK_0000016"/>
         <Class IRI="http://purl.obolibrary.org/obo/VO_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000020"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000293"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000021"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000293"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000024"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000295"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000025"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000295"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000026"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000295"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000027"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000295"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000028"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000295"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VICK_0000222"/>
@@ -1559,10 +1486,6 @@
         <Class IRI="#HPVEntity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#White"/>
-        <Class IRI="#Race"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#ZipCode"/>
         <Class IRI="#Geographic_Location"/>
     </SubClassOf>
@@ -1625,16 +1548,6 @@
         <Literal xml:lang="en">age of eligibility</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#AmericanIndianOrAlaskaNative</IRI>
-        <Literal>http://purl.obolibrary.org/obo/OMRSE_00000215</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#AmericanIndianOrAlaskaNative</IRI>
-        <Literal xml:lang="en">American Indian or Alaska Native</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
         <IRI>#Antibodies</IRI>
         <Literal xml:lang="en">Immunoglobulin molecules having a specific amino acid sequence by virtue of which they interact only with the ANTIGEN (or a very similar shape) that induced their synthesis in cells of the lymphoid series </Literal>
@@ -1663,16 +1576,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ApartmentNumber</IRI>
         <Literal xml:lang="en">apartment number</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#Asian</IRI>
-        <Literal>http://purl.obolibrary.org/obo/OMRSE_00000216</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Asian</IRI>
-        <Literal xml:lang="en">Asian</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
@@ -1708,16 +1611,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Birthdate</IRI>
         <Literal xml:lang="en">birthdate</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#BlackOrAfricanAmerican</IRI>
-        <Literal>http://purl.obolibrary.org/obo/OMRSE_00000217</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#BlackOrAfricanAmerican</IRI>
-        <Literal xml:lang="en">Black or African American</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
@@ -1766,16 +1659,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#CapabilityToConsent</IRI>
-        <Literal xml:lang="en">a person&apos;s ability to provide legal consent to a procedure</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#CapabilityToConsent</IRI>
-        <Literal xml:lang="en">capability to consent</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
         <IRI>#Carcinogen</IRI>
         <Literal xml:lang="en">a molecule or organism which can lead to cancer</Literal>
     </AnnotationAssertion>
@@ -1816,26 +1699,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#Consent</IRI>
-        <Literal xml:lang="en">to permit, approve, or agree of an action</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#Consent</IRI>
-        <Literal>http://purl.obolibrary.org/obo/NCIT_C25460</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Consent</IRI>
-        <Literal xml:lang="en">consent</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Consent_Entity</IRI>
-        <Literal xml:lang="en">consent entity</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
         <IRI>#Country</IRI>
         <Literal xml:lang="en">A Geopolitical Entity that delimits a Government with effective internal and external sovereignty over the region and its population, and which is not dependent on or subject to any other power or Geopolitical Entity.</Literal>
     </AnnotationAssertion>
@@ -1853,16 +1716,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Digital_Address</IRI>
         <Literal xml:lang="en">digital address</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#Disposition</IRI>
-        <Literal xml:lang="en">The tendency of something to act in a certain manner under given circumstances resulting from natural constitution; nature; quality; orderly arrangement</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Disposition</IRI>
-        <Literal xml:lang="en">disposition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
@@ -1951,21 +1804,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#Ethnicity</IRI>
-        <Literal xml:lang="en">a social group that shares a common and distinctive culture, religion, and language</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#Ethnicity</IRI>
-        <Literal>http://purl.obolibrary.org/obo/creno.owl#Ethnicity</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Ethnicity</IRI>
-        <Literal xml:lang="en">ethnicity</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
         <IRI>#Geographic_Location</IRI>
         <Literal xml:lang="en">A reference to a place on the Earth, by its name or by its geographical location.</Literal>
     </AnnotationAssertion>
@@ -1988,16 +1826,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#HPVEntity</IRI>
         <Literal xml:lang="en">HPV entity</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#HispanicOrLatino</IRI>
-        <Literal>http://purl.obolibrary.org/obo/OMRSE_00000207</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HispanicOrLatino</IRI>
-        <Literal xml:lang="en">hispanic or latino</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
@@ -2023,11 +1851,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ID</IRI>
         <Literal xml:lang="en">id</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#IdentifiersAndDemographics</IRI>
-        <Literal xml:lang="en">demographics</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
@@ -2068,11 +1891,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#L2</IRI>
         <Literal xml:lang="en">L2</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Medical_Events</IRI>
-        <Literal xml:lang="en">medical event</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
@@ -2140,26 +1958,6 @@
         <Literal xml:lang="en">name</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#NativeHawaiianOrOtherPacificIslander</IRI>
-        <Literal>http://purl.obolibrary.org/obo/OMRSE_00000218</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#NativeHawaiianOrOtherPacificIslander</IRI>
-        <Literal xml:lang="en">Native Hawaiian or Other Pacific Islander</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#NotHispanicOrLatino</IRI>
-        <Literal>http://purl.obolibrary.org/obo/OMRSE_00000208</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#NotHispanicOrLatino</IRI>
-        <Literal xml:lang="en">not hispanic or latino</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
         <IRI>#OverdueIntervalBetween</IRI>
         <Literal xml:lang="en">interval of time where it is not recommended to administer successive doses</Literal>
@@ -2181,21 +1979,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#ParentalConsent</IRI>
-        <Literal xml:lang="en">Informed consent given by a parent on behalf of a minor or otherwise incompetent child.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#ParentalConsent</IRI>
-        <Literal>http://purl.bioontology.org/ontology/MESH/D033282</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#ParentalConsent</IRI>
-        <Literal xml:lang="en">parental consent</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
         <IRI>#Protein</IRI>
         <Literal xml:lang="en">A physical entity consisting of a sequence of amino acids; a protein monomer; a single polypeptide chain. </Literal>
     </AnnotationAssertion>
@@ -2208,36 +1991,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Protein</IRI>
         <Literal xml:lang="en">protein</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#Race</IRI>
-        <Literal xml:lang="en">a group of persons related by common descent or heredity</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#Race</IRI>
-        <Literal>http://www.semanticweb.org/mypc/ontologies/2022/11/USBirthOnto-22#Race</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Race</IRI>
-        <Literal xml:lang="en">race</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#Signature</IRI>
-        <Literal xml:lang="en">a mark representing a person&apos;s name</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#Signature</IRI>
-        <Literal>http://purl.obolibrary.org/obo/ICO_0000222</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Signature</IRI>
-        <Literal xml:lang="en">signature</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
@@ -2283,21 +2036,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Telephone</IRI>
         <Literal xml:lang="en">telephone</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#Title</IRI>
-        <Literal xml:lang="en">a distinction belonging to a person</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#Title</IRI>
-        <Literal>http://purl.obolibrary.org/obo/NCIT_C19067</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Title</IRI>
-        <Literal xml:lang="en">title</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2453,6 +2191,76 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#VICK_0000016</IRI>
         <Literal xml:lang="en">HepB vaccination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#VICK_0000020</IRI>
+        <Literal>http://purl.obolibrary.org/obo/OMRSE_00000207</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000020</IRI>
+        <Literal xml:lang="en">hispanic or latino</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#VICK_0000021</IRI>
+        <Literal>http://purl.obolibrary.org/obo/OMRSE_00000208</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000021</IRI>
+        <Literal xml:lang="en">not hispanic or latino</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#VICK_0000024</IRI>
+        <Literal>http://purl.obolibrary.org/obo/OMRSE_00000215</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000024</IRI>
+        <Literal xml:lang="en">American Indian or Alaska Native</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#VICK_0000025</IRI>
+        <Literal>http://purl.obolibrary.org/obo/OMRSE_00000216</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000025</IRI>
+        <Literal xml:lang="en">Asian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#VICK_0000026</IRI>
+        <Literal>http://purl.obolibrary.org/obo/OMRSE_00000217</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000026</IRI>
+        <Literal xml:lang="en">Black or African American</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#VICK_0000027</IRI>
+        <Literal>http://purl.obolibrary.org/obo/OMRSE_00000218</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000027</IRI>
+        <Literal xml:lang="en">Native Hawaiian or Other Pacific Islander</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#VICK_0000028</IRI>
+        <Literal>http://purl.obolibrary.org/obo/OMRSE_00000219</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000028</IRI>
+        <Literal xml:lang="en">White</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2833,16 +2641,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Virus-likeParticles</IRI>
         <Literal xml:lang="en">virus-like particles</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#White</IRI>
-        <Literal>http://purl.obolibrary.org/obo/OMRSE_00000219</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#White</IRI>
-        <Literal xml:lang="en">White</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>

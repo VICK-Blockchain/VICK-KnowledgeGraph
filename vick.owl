@@ -25683,6 +25683,18 @@ It indicates that a person has completed only early childhood education and noth
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000235"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000293"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000235"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000295"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000235"/>
                 <owl:someValuesFrom rdf:resource="http://purl.org/vick/vick.owl#EmailAddress"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -25696,18 +25708,6 @@ It indicates that a person has completed only early childhood education and noth
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002350"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000076"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#VICK_0000000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/vick/vick.owl#Ethnicity"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#VICK_0000000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/vick/vick.owl#Race"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -38125,16 +38125,6 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
     
 
 
-    <!-- http://purl.org/vick/vick.owl#AmericanIndianOrAlaskaNative -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#AmericanIndianOrAlaskaNative">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Race"/>
-        <oboInOwl:id>http://purl.obolibrary.org/obo/OMRSE_00000215</oboInOwl:id>
-        <rdfs:label xml:lang="en">American Indian or Alaska Native</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.org/vick/vick.owl#Antibodies -->
 
     <owl:Class rdf:about="http://purl.org/vick/vick.owl#Antibodies">
@@ -38153,16 +38143,6 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <external_byhand:definition xml:lang="en">number corresponding to a person&apos;s apartment</external_byhand:definition>
         <oboInOwl:id>http://semanticscience.org/resource/SIO_000768</oboInOwl:id>
         <rdfs:label xml:lang="en">apartment number</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#Asian -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#Asian">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Race"/>
-        <oboInOwl:id>http://purl.obolibrary.org/obo/OMRSE_00000216</oboInOwl:id>
-        <rdfs:label xml:lang="en">Asian</rdfs:label>
     </owl:Class>
     
 
@@ -38194,16 +38174,6 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <external_byhand:definition xml:lang="en">the date which a person is born</external_byhand:definition>
         <oboInOwl:id>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68615</oboInOwl:id>
         <rdfs:label xml:lang="en">birthdate</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#BlackOrAfricanAmerican -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#BlackOrAfricanAmerican">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Race"/>
-        <oboInOwl:id>http://purl.obolibrary.org/obo/OMRSE_00000217</oboInOwl:id>
-        <rdfs:label xml:lang="en">Black or African American</rdfs:label>
     </owl:Class>
     
 
@@ -38241,16 +38211,6 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
     
 
 
-    <!-- http://purl.org/vick/vick.owl#CapabilityToConsent -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#CapabilityToConsent">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Consent_Entity"/>
-        <external_byhand:definition xml:lang="en">a person&apos;s ability to provide legal consent to a procedure</external_byhand:definition>
-        <rdfs:label xml:lang="en">capability to consent</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.org/vick/vick.owl#Carcinogen -->
 
     <owl:Class rdf:about="http://purl.org/vick/vick.owl#Carcinogen">
@@ -38283,26 +38243,6 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
     
 
 
-    <!-- http://purl.org/vick/vick.owl#Consent -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#Consent">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Consent_Entity"/>
-        <external_byhand:definition xml:lang="en">to permit, approve, or agree of an action</external_byhand:definition>
-        <oboInOwl:id>http://purl.obolibrary.org/obo/NCIT_C25460</oboInOwl:id>
-        <rdfs:label xml:lang="en">consent</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#Consent_Entity -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#Consent_Entity">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#IdentifiersAndDemographics"/>
-        <rdfs:label xml:lang="en">consent entity</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.org/vick/vick.owl#Country -->
 
     <owl:Class rdf:about="http://purl.org/vick/vick.owl#Country">
@@ -38319,16 +38259,6 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
     <owl:Class rdf:about="http://purl.org/vick/vick.owl#Digital_Address">
         <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Indentifiers"/>
         <rdfs:label xml:lang="en">digital address</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#Disposition -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#Disposition">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Consent_Entity"/>
-        <external_byhand:definition xml:lang="en">The tendency of something to act in a certain manner under given circumstances resulting from natural constitution; nature; quality; orderly arrangement</external_byhand:definition>
-        <rdfs:label xml:lang="en">disposition</rdfs:label>
     </owl:Class>
     
 
@@ -38414,17 +38344,6 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
     
 
 
-    <!-- http://purl.org/vick/vick.owl#Ethnicity -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#Ethnicity">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#IdentifiersAndDemographics"/>
-        <external_byhand:definition xml:lang="en">a social group that shares a common and distinctive culture, religion, and language</external_byhand:definition>
-        <oboInOwl:id>http://purl.obolibrary.org/obo/creno.owl#Ethnicity</oboInOwl:id>
-        <rdfs:label xml:lang="en">ethnicity</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.org/vick/vick.owl#Geographic_Location -->
 
     <owl:Class rdf:about="http://purl.org/vick/vick.owl#Geographic_Location">
@@ -38442,16 +38361,6 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Biochemical_Entity"/>
         <external_byhand:definition xml:lang="en">component related to HPV</external_byhand:definition>
         <rdfs:label xml:lang="en">HPV entity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#HispanicOrLatino -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#HispanicOrLatino">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Ethnicity"/>
-        <oboInOwl:id>http://purl.obolibrary.org/obo/OMRSE_00000207</oboInOwl:id>
-        <rdfs:label xml:lang="en">hispanic or latino</rdfs:label>
     </owl:Class>
     
 
@@ -38519,15 +38428,6 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
     
 
 
-    <!-- http://purl.org/vick/vick.owl#IdentifiersAndDemographics -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#IdentifiersAndDemographics">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
-        <rdfs:label xml:lang="en">demographics</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.org/vick/vick.owl#ImmuneResponse -->
 
     <owl:Class rdf:about="http://purl.org/vick/vick.owl#ImmuneResponse">
@@ -38564,15 +38464,6 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Protein"/>
         <external_byhand:definition xml:lang="en">gene and protein which encodes for HPV strain</external_byhand:definition>
         <rdfs:label xml:lang="en">L2</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#Medical_Events -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#Medical_Events">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <rdfs:label xml:lang="en">medical event</rdfs:label>
     </owl:Class>
     
 
@@ -38638,26 +38529,6 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
     
 
 
-    <!-- http://purl.org/vick/vick.owl#NativeHawaiianOrOtherPacificIslander -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#NativeHawaiianOrOtherPacificIslander">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Race"/>
-        <oboInOwl:id>http://purl.obolibrary.org/obo/OMRSE_00000218</oboInOwl:id>
-        <rdfs:label xml:lang="en">Native Hawaiian or Other Pacific Islander</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#NotHispanicOrLatino -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#NotHispanicOrLatino">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Ethnicity"/>
-        <oboInOwl:id>http://purl.obolibrary.org/obo/OMRSE_00000208</oboInOwl:id>
-        <rdfs:label xml:lang="en">not hispanic or latino</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.org/vick/vick.owl#OverdueIntervalBetween -->
 
     <owl:Class rdf:about="http://purl.org/vick/vick.owl#OverdueIntervalBetween">
@@ -38678,17 +38549,6 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
     
 
 
-    <!-- http://purl.org/vick/vick.owl#ParentalConsent -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#ParentalConsent">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Consent_Entity"/>
-        <external_byhand:definition xml:lang="en">Informed consent given by a parent on behalf of a minor or otherwise incompetent child.</external_byhand:definition>
-        <oboInOwl:id>http://purl.bioontology.org/ontology/MESH/D033282</oboInOwl:id>
-        <rdfs:label xml:lang="en">parental consent</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.org/vick/vick.owl#Protein -->
 
     <owl:Class rdf:about="http://purl.org/vick/vick.owl#Protein">
@@ -38696,28 +38556,6 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <external_byhand:definition xml:lang="en">A physical entity consisting of a sequence of amino acids; a protein monomer; a single polypeptide chain. </external_byhand:definition>
         <oboInOwl:id>http://www.biopax.org/release/biopax-level3.owl#Protein</oboInOwl:id>
         <rdfs:label xml:lang="en">protein</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#Race -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#Race">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#IdentifiersAndDemographics"/>
-        <external_byhand:definition xml:lang="en">a group of persons related by common descent or heredity</external_byhand:definition>
-        <oboInOwl:id>http://www.semanticweb.org/mypc/ontologies/2022/11/USBirthOnto-22#Race</oboInOwl:id>
-        <rdfs:label xml:lang="en">race</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#Signature -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#Signature">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#IdentifiersAndDemographics"/>
-        <external_byhand:definition xml:lang="en">a mark representing a person&apos;s name</external_byhand:definition>
-        <oboInOwl:id>http://purl.obolibrary.org/obo/ICO_0000222</oboInOwl:id>
-        <rdfs:label xml:lang="en">signature</rdfs:label>
     </owl:Class>
     
 
@@ -38751,17 +38589,6 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <external_byhand:definition xml:lang="en">the cellular number where a person can be reached</external_byhand:definition>
         <oboInOwl:id>http://purl.obolibrary.org/obo/NCIT_C40978</oboInOwl:id>
         <rdfs:label xml:lang="en">telephone</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#Title -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#Title">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#IdentifiersAndDemographics"/>
-        <external_byhand:definition xml:lang="en">a distinction belonging to a person</external_byhand:definition>
-        <oboInOwl:id>http://purl.obolibrary.org/obo/NCIT_C19067</oboInOwl:id>
-        <rdfs:label xml:lang="en">title</rdfs:label>
     </owl:Class>
     
 
@@ -38951,6 +38778,76 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <external_byhand:definition xml:lang="en">vaccination against HepB infection</external_byhand:definition>
         <oboInOwl:id>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C178932</oboInOwl:id>
         <rdfs:label xml:lang="en">HepB vaccination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000020 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000293"/>
+        <oboInOwl:id>http://purl.obolibrary.org/obo/OMRSE_00000207</oboInOwl:id>
+        <rdfs:label xml:lang="en">hispanic or latino</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000021 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000293"/>
+        <oboInOwl:id>http://purl.obolibrary.org/obo/OMRSE_00000208</oboInOwl:id>
+        <rdfs:label xml:lang="en">not hispanic or latino</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000024 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000295"/>
+        <oboInOwl:id>http://purl.obolibrary.org/obo/OMRSE_00000215</oboInOwl:id>
+        <rdfs:label xml:lang="en">American Indian or Alaska Native</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000025 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000295"/>
+        <oboInOwl:id>http://purl.obolibrary.org/obo/OMRSE_00000216</oboInOwl:id>
+        <rdfs:label xml:lang="en">Asian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000026 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000295"/>
+        <oboInOwl:id>http://purl.obolibrary.org/obo/OMRSE_00000217</oboInOwl:id>
+        <rdfs:label xml:lang="en">Black or African American</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000027 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000295"/>
+        <oboInOwl:id>http://purl.obolibrary.org/obo/OMRSE_00000218</oboInOwl:id>
+        <rdfs:label xml:lang="en">Native Hawaiian or Other Pacific Islander</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000028 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000295"/>
+        <oboInOwl:id>http://purl.obolibrary.org/obo/OMRSE_00000219</oboInOwl:id>
+        <rdfs:label xml:lang="en">White</rdfs:label>
     </owl:Class>
     
 
@@ -39688,16 +39585,6 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#HPVEntity"/>
         <external_byhand:definition xml:lang="en">non-infectious, virus-derived structures that mimic the form and size of a virus but lack the genetic material necessary for replication</external_byhand:definition>
         <rdfs:label xml:lang="en">virus-like particles</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vick/vick.owl#White -->
-
-    <owl:Class rdf:about="http://purl.org/vick/vick.owl#White">
-        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#Race"/>
-        <oboInOwl:id>http://purl.obolibrary.org/obo/OMRSE_00000219</oboInOwl:id>
-        <rdfs:label xml:lang="en">White</rdfs:label>
     </owl:Class>
     
 

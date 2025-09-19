@@ -3,7 +3,7 @@
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/omrse/releases/2025-06-30/omrse.owl" uri="http://purl.obolibrary.org/obo/omrse.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/VICO_merged.owl" uri="https://raw.githubusercontent.com/VICO-ontology/VICO/master/src/ontology/release_merged_file/vico_merged.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1758296961430" name="duplicate:http://purl.org/vick/vick.owl" uri="vick.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1758296961430" name="duplicate:http://purl.org/vick/vick.owl" uri="vick-base.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1758301404714" name="duplicate:http://purl.org/vick/vick.owl" uri="vick.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1758301404714" name="duplicate:http://purl.org/vick/vick.owl" uri="vick-base.owl"/>
     </group>
 </catalog>
