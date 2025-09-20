@@ -8,11 +8,19 @@ VICK is an ontology-based knowledge graph extending the Vaccine Informed Consent
 *Figure 1. Conceptual Data Model for HPV Vaccination and Related Entities*
 
 ![CM2](https://github.com/VICK-Blockchain/VICK-KnowledgeGraph/blob/main/vickcm2.jpg)
+![CM4](https://github.com/VICK-Blockchain/VICK-KnowledgeGraph/blob/main/vickcm4.jpg)
 *Figure 2. Conceptual Model of HPV Vaccines, Their Components, and Biological Effects*
 
 ![CM3](https://github.com/VICK-Blockchain/VICK-KnowledgeGraph/blob/main/vickcm3.jpg)
-![CM4](https://github.com/VICK-Blockchain/VICK-KnowledgeGraph/blob/main/vickcm4.jpg)
 *Figure 3. Conceptual Model of Family Roles and Consent Processes*
+
+## Contents
+
+You can access the public version using the permanent url: http://purl.org/vick/vick.owl
+
+- vick.owl (public release)
+- vick-base.owl (work file)
+
 
 ## Contributors
 
