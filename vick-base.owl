@@ -293,6 +293,12 @@
         <Class IRI="#VICK_0000050"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#VICK_0000051"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VICK_0000052"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#VICK_0000222"/>
     </Declaration>
     <Declaration>
@@ -660,6 +666,13 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/VO_0000002"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#VICK_0000284"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/VO_0000049"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/VO_0003355"/>
@@ -1024,6 +1037,24 @@
         <Class IRI="#VICK_0000043"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#VICK_0000051"/>
+        <Class IRI="#VICK_0000222"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000052"/>
+        <Class IRI="#VICK_0000237"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000052"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0004028"/>
+            <ObjectUnionOf>
+                <Class IRI="#VICK_0000007"/>
+                <Class IRI="#VICK_0000015"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#VICK_0000222"/>
         <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
     </SubClassOf>
@@ -1349,6 +1380,13 @@
     <SubClassOf>
         <Class IRI="#VICK_0000272"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000167"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VO_0000049"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000272"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002224"/>
             <Class IRI="#VICK_0000269"/>
         </ObjectSomeValuesFrom>
@@ -1367,6 +1405,13 @@
     <SubClassOf>
         <Class IRI="#VICK_0000273"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000167"/>
+            <Class IRI="#VICK_0000006"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000273"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002224"/>
             <Class IRI="#VICK_0000276"/>
         </ObjectSomeValuesFrom>
@@ -1381,6 +1426,13 @@
     <SubClassOf>
         <Class IRI="#VICK_0000274"/>
         <Class IRI="#VICK_0000282"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000274"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000167"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VO_0011559"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VICK_0000274"/>
@@ -1448,6 +1500,19 @@
     <SubClassOf>
         <Class IRI="#VICK_0000282"/>
         <Class IRI="http://purl.obolibrary.org/obo/VO_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VICK_0000282"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000057"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#VICK_0000266"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000087"/>
+                    <Class IRI="http://purl.obolibrary.org/obo/VO_0001274"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VICK_0000283"/>
@@ -2225,6 +2290,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000051</IRI>
+        <Literal xml:lang="en">nurse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VICK_0000052</IRI>
+        <Literal xml:lang="en">laryngeal cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#VICK_0000220</IRI>
         <Literal xml:lang="en">is reported by</Literal>
     </AnnotationAssertion>
@@ -2326,7 +2401,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#VICK_0000237</IRI>
-        <Literal xml:lang="en">hpv-related cancers</Literal>
+        <Literal xml:lang="en">hpv-related cancer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>

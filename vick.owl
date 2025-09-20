@@ -30078,6 +30078,12 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/vick/vick.owl#VICK_0000284"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>a process of administering substance in vivo that involves in adding a vaccine into a host (e.g., human) in vivo with the intent to invoke a protective or therapeutic adaptive immune response.</obo:IAO_0000115>
         <obo:IAO_0000117>YH, BP</obo:IAO_0000117>
         <obo:IAO_0000118>vaccine administration</obo:IAO_0000118>
@@ -38847,6 +38853,37 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
     
 
 
+    <!-- http://purl.org/vick/vick.owl#VICK_0000051 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000051">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#VICK_0000222"/>
+        <rdfs:label xml:lang="en">nurse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vick/vick.owl#VICK_0000052 -->
+
+    <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000052">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#VICK_0000237"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004028"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.org/vick/vick.owl#VICK_0000007"/>
+                            <rdf:Description rdf:about="http://purl.org/vick/vick.owl#VICK_0000015"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">laryngeal cancer</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/vick/vick.owl#VICK_0000222 -->
 
     <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000222">
@@ -38993,7 +39030,7 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
 
     <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000237">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
-        <rdfs:label xml:lang="en">hpv-related cancers</rdfs:label>
+        <rdfs:label xml:lang="en">hpv-related cancer</rdfs:label>
     </owl:Class>
     
 
@@ -39384,6 +39421,12 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#VICK_0000282"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000167"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002224"/>
                 <owl:someValuesFrom rdf:resource="http://purl.org/vick/vick.owl#VICK_0000269"/>
             </owl:Restriction>
@@ -39405,6 +39448,12 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
         <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#VICK_0000282"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000167"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/vick/vick.owl#VICK_0000006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002224"/>
                 <owl:someValuesFrom rdf:resource="http://purl.org/vick/vick.owl#VICK_0000276"/>
             </owl:Restriction>
@@ -39424,6 +39473,12 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
 
     <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000274">
         <rdfs:subClassOf rdf:resource="http://purl.org/vick/vick.owl#VICK_0000282"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000167"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011559"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002224"/>
@@ -39526,6 +39581,22 @@ Influenza vaccine, every winter, to help prevent getting secondary bacterial inf
 
     <owl:Class rdf:about="http://purl.org/vick/vick.owl#VICK_0000282">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.org/vick/vick.owl#VICK_0000266"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000087"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0001274"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">human papillomavirus vaccination</rdfs:label>
     </owl:Class>
     
