@@ -1,4 +1,4 @@
-# Vaccine Informed Consent Knowledge-base (VICK) Graph
+# Vaccine Information and Consent Knowledge-base (VICK) Graph
 
 ** Work in progress **
 
@@ -27,6 +27,7 @@ You can access the public version using the permanent url: http://purl.org/vick/
 * Kevin Pasquette (Vanderbilt)
 * Tuan Amith, PhD (UTMB)
 * Ana Neumann, DDS, PhD (UTHealth)
+* Yongqun "Oliver" He, DVM, PhD (University of Michigan Medical School)
 
 ## Acknowledgement
 
