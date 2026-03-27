@@ -16,7 +16,7 @@ VICK is an ontology-based knowledge graph extending the Vaccine Informed Consent
 
 ## Contents
 
-You can access the public version using the permanent url: http://purl.org/vick/vick.owl
+You can access the public version using the permanent url: http://w3id.org/vick/vick.owl
 
 - vick.owl (public release)
 - vick-base.owl (work file)
