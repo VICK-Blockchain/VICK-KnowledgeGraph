@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://purl.org/vick/vick.owl"
+     xml:base="http://w3id.org/vick/vick.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://purl.org/vick/vick.owl">
+     ontologyIRI="http://w3id.org/vick/vick.owl">
     <Prefix name="" IRI="http://www.semanticweb.org/kevinpasquette/ontologies/2025/6/untitled-ontology-35/"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Import>http://purl.obolibrary.org/obo/omrse/releases/2025-06-30/omrse.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/omrse.owl</Import>
     <Import>https://raw.githubusercontent.com/VICO-ontology/VICO/master/src/ontology/release_merged_file/vico_merged.owl</Import>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
@@ -24,7 +24,7 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
-        <Literal>Vaccine Informed Consent Knowledge base (VICK)</Literal>
+        <Literal>Vaccine Information and Consent Knowledge base (VICK)</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -39,6 +39,18 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000314"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000422"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0020000"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0020015"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/ICO_0000001"/>
@@ -101,373 +113,376 @@
         <Class IRI="http://purl.obolibrary.org/obo/VO_0011559"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Administration_Processes"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Administration_Processes"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ApartmentNumber"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#ApartmentNumber"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Biochemical_Entity"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Biochemical_Entity"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Biological_Entity"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Biological_Entity"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Birthdate"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Birthdate"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#BodilyProcess"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#BodilyProcess"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#BuildingNumber"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#BuildingNumber"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#City"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#City"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ClinicAddress"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#ClinicAddress"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Country"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Country"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Digital_Address"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Digital_Address"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#EmailAddress"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#EmailAddress"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Geographic_Location"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Geographic_Location"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#HomeAddres"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#HomeAddres"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ID"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#ID"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ImmuneResponse"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#ImmuneResponse"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Indentifiers"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Indentifiers"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Name"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Name"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#State"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#State"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Street"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Street"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Telephone"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Telephone"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000002"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000002"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000003"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000003"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000004"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000004"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000005"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000005"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000006"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000006"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000007"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000007"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000008"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000008"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000009"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000009"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000010"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000010"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000011"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000011"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000012"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000012"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000013"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000013"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000014"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000014"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000015"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000015"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000016"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000016"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000020"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000020"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000021"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000021"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000024"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000024"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000025"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000025"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000026"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000026"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000027"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000027"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000028"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000028"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000029"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000029"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000030"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000030"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000031"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000031"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000032"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000032"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000033"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000033"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000034"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000034"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000035"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000035"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000036"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000036"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000037"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000037"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000038"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000038"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000039"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000039"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000040"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000040"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000041"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000041"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000042"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000042"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000043"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000043"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000045"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000045"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000046"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000046"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000047"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000047"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000048"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000048"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000049"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000049"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000050"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000050"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000051"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000051"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000052"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000052"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000222"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000222"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000223"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000223"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000224"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000224"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000225"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000225"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000227"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000227"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000228"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000228"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000229"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000229"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000230"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000230"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000231"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000231"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000232"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000232"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000233"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000233"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000234"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000234"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000235"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000235"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000236"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000236"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000237"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000237"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000238"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000238"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000239"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000239"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000240"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000240"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000241"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000241"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000242"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000242"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000243"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000243"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000245"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000245"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000247"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000247"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000249"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000249"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000250"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000250"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000252"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000252"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000253"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000253"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000254"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000254"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000255"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000255"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000256"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000256"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000259"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000259"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000260"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000260"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000261"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000261"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000263"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000263"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000265"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000265"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000266"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000266"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000267"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000267"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000268"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000268"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000269"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000269"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000270"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000270"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000271"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000271"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000272"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000272"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000273"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000273"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000274"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000274"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000275"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000275"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000276"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000276"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000277"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000277"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000278"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000278"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000279"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000279"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000280"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000280"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000281"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000281"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000282"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000282"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000283"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000283"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000284"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000284"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VICK_0000285"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000285"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ZipCode"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#ZipCode"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000125"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000235"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000304"/>
@@ -485,19 +500,19 @@
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/VO_0003355"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#VICK_0000220"/>
+        <ObjectProperty IRI="http://w3id.org/vick/vick.owl#VICK_0000220"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#VICK_0000257"/>
+        <ObjectProperty IRI="http://w3id.org/vick/vick.owl#VICK_0000257"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#VICK_0000258"/>
+        <ObjectProperty IRI="http://w3id.org/vick/vick.owl#VICK_0000258"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#is_documented_by"/>
+        <ObjectProperty IRI="http://w3id.org/vick/vick.owl#is_documented_by"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#placed_on"/>
+        <ObjectProperty IRI="http://w3id.org/vick/vick.owl#placed_on"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#VICK_0000000"/>
@@ -506,19 +521,19 @@
         <DataProperty IRI="http://purl.obolibrary.org/obo/VICO_0000054"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#VICK_0000044"/>
+        <DataProperty IRI="http://w3id.org/vick/vick.owl#VICK_0000044"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/VO_0000695"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#VICK_0000221"/>
+        <NamedIndividual IRI="http://w3id.org/vick/vick.owl#VICK_0000221"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#VICK_0000246"/>
+        <NamedIndividual IRI="http://w3id.org/vick/vick.owl#VICK_0000246"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#VICK_0000264"/>
+        <NamedIndividual IRI="http://w3id.org/vick/vick.owl#VICK_0000264"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
@@ -526,16 +541,16 @@
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/OAE_0000004"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#VICK_0000220"/>
+            <ObjectProperty IRI="http://w3id.org/vick/vick.owl#VICK_0000220"/>
             <ObjectOneOf>
-                <NamedIndividual IRI="#VICK_0000221"/>
+                <NamedIndividual IRI="http://w3id.org/vick/vick.owl#VICK_0000221"/>
             </ObjectOneOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/OAE_0000004"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#VICK_0000257"/>
+            <ObjectProperty IRI="http://w3id.org/vick/vick.owl#VICK_0000257"/>
             <Class IRI="http://purl.obolibrary.org/obo/SYMP_0000462"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -543,7 +558,7 @@
         <Class IRI="http://purl.obolibrary.org/obo/PATO_0000011"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000235"/>
-            <Class IRI="#Birthdate"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#Birthdate"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -578,14 +593,14 @@
         <Class IRI="http://purl.obolibrary.org/obo/VICO_0000016"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000235"/>
-            <Class IRI="#EmailAddress"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#EmailAddress"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/VICO_0000016"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000235"/>
-            <Class IRI="#VICK_0000228"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000228"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -627,21 +642,21 @@
         <Class IRI="http://purl.obolibrary.org/obo/VICO_0000072"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
-            <Class IRI="#VICK_0000261"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000261"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/VO_0000001"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000067"/>
-            <Class IRI="#VICK_0000043"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000043"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/VO_0000001"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/OMRSE_00000068"/>
-            <Class IRI="#VICK_0000222"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000222"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -669,7 +684,7 @@
         <Class IRI="http://purl.obolibrary.org/obo/VO_0000002"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
-            <Class IRI="#VICK_0000284"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000284"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -677,10 +692,10 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/VO_0003355"/>
             <ObjectUnionOf>
-                <Class IRI="#VICK_0000007"/>
-                <Class IRI="#VICK_0000008"/>
-                <Class IRI="#VICK_0000009"/>
-                <Class IRI="#VICK_0000015"/>
+                <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000007"/>
+                <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000008"/>
+                <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000009"/>
+                <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000015"/>
             </ObjectUnionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -693,173 +708,173 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/VO_0003355"/>
             <ObjectIntersectionOf>
-                <Class IRI="#VICK_0000007"/>
-                <Class IRI="#VICK_0000008"/>
+                <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000007"/>
+                <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000008"/>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Administration_Processes"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Administration_Processes"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000011"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ApartmentNumber"/>
-        <Class IRI="#Geographic_Location"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#ApartmentNumber"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Geographic_Location"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Biochemical_Entity"/>
-        <Class IRI="#Biological_Entity"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Biochemical_Entity"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Biological_Entity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Biological_Entity"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Biological_Entity"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Birthdate"/>
-        <Class IRI="#Indentifiers"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Birthdate"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Indentifiers"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#BodilyProcess"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#BodilyProcess"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#BuildingNumber"/>
-        <Class IRI="#Geographic_Location"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#BuildingNumber"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Geographic_Location"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#City"/>
-        <Class IRI="#Geographic_Location"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#City"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Geographic_Location"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ClinicAddress"/>
-        <Class IRI="#Geographic_Location"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#ClinicAddress"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Geographic_Location"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Country"/>
-        <Class IRI="#Geographic_Location"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Country"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Geographic_Location"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Digital_Address"/>
-        <Class IRI="#Indentifiers"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Digital_Address"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Indentifiers"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#EmailAddress"/>
-        <Class IRI="#Digital_Address"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#EmailAddress"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Digital_Address"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Geographic_Location"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Geographic_Location"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000011"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#HomeAddres"/>
-        <Class IRI="#Geographic_Location"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#HomeAddres"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Geographic_Location"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#HomeAddres"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#HomeAddres"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002180"/>
-            <Class IRI="#ApartmentNumber"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#ApartmentNumber"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#HomeAddres"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#HomeAddres"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002180"/>
-            <Class IRI="#BuildingNumber"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#BuildingNumber"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#HomeAddres"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#HomeAddres"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002180"/>
-            <Class IRI="#City"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#City"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#HomeAddres"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#HomeAddres"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002180"/>
-            <Class IRI="#Country"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#Country"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#HomeAddres"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#HomeAddres"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002180"/>
-            <Class IRI="#State"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#State"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#HomeAddres"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#HomeAddres"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002180"/>
-            <Class IRI="#Street"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#Street"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#HomeAddres"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#HomeAddres"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002180"/>
-            <Class IRI="#ZipCode"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#ZipCode"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ID"/>
-        <Class IRI="#Indentifiers"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#ID"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Indentifiers"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ImmuneResponse"/>
-        <Class IRI="#BodilyProcess"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#ImmuneResponse"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#BodilyProcess"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Indentifiers"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Indentifiers"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000314"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Name"/>
-        <Class IRI="#Indentifiers"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Name"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Indentifiers"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#State"/>
-        <Class IRI="#Geographic_Location"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#State"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Geographic_Location"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Street"/>
-        <Class IRI="#Geographic_Location"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Street"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Geographic_Location"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Telephone"/>
-        <Class IRI="#Indentifiers"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Telephone"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Indentifiers"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000002"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000002"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000003"/>
-        <Class IRI="#VICK_0000002"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000003"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000002"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000004"/>
-        <Class IRI="#VICK_0000002"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000004"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000002"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000005"/>
-        <Class IRI="#VICK_0000002"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000005"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000002"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000006"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000006"/>
         <Class IRI="http://purl.obolibrary.org/obo/VO_0000667"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000006"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000006"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000295"/>
             <Class IRI="http://purl.obolibrary.org/obo/VO_0001187"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000006"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000006"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000304"/>
             <ObjectOneOf>
@@ -868,458 +883,458 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000006"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000006"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/VO_0003355"/>
             <ObjectUnionOf>
-                <Class IRI="#VICK_0000007"/>
-                <Class IRI="#VICK_0000008"/>
-                <Class IRI="#VICK_0000009"/>
-                <Class IRI="#VICK_0000010"/>
-                <Class IRI="#VICK_0000011"/>
-                <Class IRI="#VICK_0000012"/>
-                <Class IRI="#VICK_0000013"/>
-                <Class IRI="#VICK_0000014"/>
-                <Class IRI="#VICK_0000015"/>
+                <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000007"/>
+                <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000008"/>
+                <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000009"/>
+                <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000010"/>
+                <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000011"/>
+                <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000012"/>
+                <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000013"/>
+                <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000014"/>
+                <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000015"/>
             </ObjectUnionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000007"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000007"/>
         <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000008"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000008"/>
         <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000009"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000009"/>
         <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000010"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000010"/>
         <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000011"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000011"/>
         <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000012"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000012"/>
         <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000013"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000013"/>
         <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000014"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000014"/>
         <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000015"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000015"/>
         <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000016"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000016"/>
         <Class IRI="http://purl.obolibrary.org/obo/VO_0000002"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000020"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000020"/>
         <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000293"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000021"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000021"/>
         <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000293"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000024"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000024"/>
         <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000295"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000025"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000025"/>
         <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000295"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000026"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000026"/>
         <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000295"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000027"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000027"/>
         <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000295"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000028"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000028"/>
         <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000295"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000029"/>
-        <Class IRI="#Biochemical_Entity"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000029"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Biochemical_Entity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000030"/>
-        <Class IRI="#VICK_0000029"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000030"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000029"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000031"/>
-        <Class IRI="#VICK_0000029"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000031"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000029"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000032"/>
-        <Class IRI="#VICK_0000029"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000032"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000029"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000033"/>
-        <Class IRI="#VICK_0000031"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000033"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000031"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000034"/>
-        <Class IRI="#VICK_0000031"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000034"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000031"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000035"/>
-        <Class IRI="#VICK_0000031"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000035"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000031"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000036"/>
-        <Class IRI="#VICK_0000031"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000036"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000031"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000037"/>
-        <Class IRI="#VICK_0000031"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000037"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000031"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000038"/>
-        <Class IRI="#VICK_0000031"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000038"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000031"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000039"/>
-        <Class IRI="#VICK_0000031"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000039"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000031"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000040"/>
-        <Class IRI="#VICK_0000031"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000040"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000031"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000041"/>
-        <Class IRI="#VICK_0000031"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000041"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000031"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000042"/>
-        <Class IRI="#Biochemical_Entity"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000042"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Biochemical_Entity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000043"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000043"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000008"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000045"/>
-        <Class IRI="#VICK_0000043"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000045"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000043"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000046"/>
-        <Class IRI="#VICK_0000043"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000046"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000043"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000047"/>
-        <Class IRI="#VICK_0000043"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000047"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000043"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000048"/>
-        <Class IRI="#VICK_0000043"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000048"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000043"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000049"/>
-        <Class IRI="#VICK_0000043"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000049"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000043"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000050"/>
-        <Class IRI="#VICK_0000043"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000050"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000043"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000051"/>
-        <Class IRI="#VICK_0000222"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000051"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000222"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000052"/>
-        <Class IRI="#VICK_0000237"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000052"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000237"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000052"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000052"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0004028"/>
             <ObjectUnionOf>
-                <Class IRI="#VICK_0000007"/>
-                <Class IRI="#VICK_0000015"/>
+                <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000007"/>
+                <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000015"/>
             </ObjectUnionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000222"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000222"/>
         <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000222"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000222"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000087"/>
             <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000012"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000222"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000222"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
-            <Class IRI="#VICK_0000245"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000245"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000223"/>
-        <Class IRI="#VICK_0000222"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000223"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000222"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000224"/>
-        <Class IRI="#VICK_0000222"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000224"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000222"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000225"/>
-        <Class IRI="#VICK_0000222"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000225"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000222"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000227"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000227"/>
         <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000228"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000228"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0020000"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000229"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000229"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0020000"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000230"/>
-        <Class IRI="#VICK_0000228"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000230"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000228"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000231"/>
-        <Class IRI="#VICK_0000228"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000231"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000228"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000232"/>
-        <Class IRI="#VICK_0000228"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000232"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000228"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000233"/>
-        <Class IRI="#VICK_0000228"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000233"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000228"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000234"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000234"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0020000"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000235"/>
-        <Class IRI="#VICK_0000234"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000235"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000234"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000236"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000236"/>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000237"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000237"/>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_162"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000238"/>
-        <Class IRI="#VICK_0000237"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000238"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000237"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000238"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000238"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0004028"/>
-            <Class IRI="#VICK_0000008"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000008"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000239"/>
-        <Class IRI="#VICK_0000237"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000239"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000237"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000239"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000239"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0004028"/>
-            <Class IRI="#VICK_0000008"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000008"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000240"/>
-        <Class IRI="#VICK_0000237"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000240"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000237"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000240"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000240"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0004028"/>
-            <Class IRI="#VICK_0000008"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000008"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000241"/>
-        <Class IRI="#VICK_0000237"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000241"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000237"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000241"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000241"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0004028"/>
             <ObjectUnionOf>
-                <Class IRI="#VICK_0000008"/>
-                <Class IRI="#VICK_0000009"/>
-                <Class IRI="#VICK_0000010"/>
-                <Class IRI="#VICK_0000012"/>
+                <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000008"/>
+                <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000009"/>
+                <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000010"/>
+                <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000012"/>
             </ObjectUnionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000242"/>
-        <Class IRI="#VICK_0000237"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000242"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000237"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000242"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000242"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0004028"/>
-            <Class IRI="#VICK_0000008"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000008"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000243"/>
-        <Class IRI="#VICK_0000237"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000243"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000237"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000243"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000243"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0004028"/>
             <ObjectUnionOf>
-                <Class IRI="#VICK_0000008"/>
-                <Class IRI="#VICK_0000009"/>
-                <Class IRI="#VICK_0000011"/>
+                <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000008"/>
+                <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000009"/>
+                <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000011"/>
             </ObjectUnionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000245"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000245"/>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0000245"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000245"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000245"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/OMRSE_00000167"/>
             <Class IRI="http://purl.obolibrary.org/obo/VO_0000002"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000247"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000247"/>
         <Class IRI="http://purl.obolibrary.org/obo/VO_0000299"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000249"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000249"/>
         <Class IRI="http://purl.obolibrary.org/obo/DOID_4"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000250"/>
-        <Class IRI="#VICK_0000249"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000250"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000249"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000250"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000250"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0004028"/>
             <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000250"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000250"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#VICK_0000258"/>
-            <Class IRI="#VICK_0000253"/>
+            <ObjectProperty IRI="http://w3id.org/vick/vick.owl#VICK_0000258"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000253"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000250"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000250"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#VICK_0000258"/>
-            <Class IRI="#VICK_0000254"/>
+            <ObjectProperty IRI="http://w3id.org/vick/vick.owl#VICK_0000258"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000254"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000250"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000250"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#VICK_0000258"/>
-            <Class IRI="#VICK_0000255"/>
+            <ObjectProperty IRI="http://w3id.org/vick/vick.owl#VICK_0000258"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000255"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000250"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000250"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#VICK_0000258"/>
-            <Class IRI="#VICK_0000256"/>
+            <ObjectProperty IRI="http://w3id.org/vick/vick.owl#VICK_0000258"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000256"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000252"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000252"/>
         <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001134"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000253"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000253"/>
         <Class IRI="http://purl.obolibrary.org/obo/SYMP_0000462"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000254"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000254"/>
         <Class IRI="http://purl.obolibrary.org/obo/SYMP_0000462"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000255"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000255"/>
         <Class IRI="http://purl.obolibrary.org/obo/SYMP_0000462"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000256"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000256"/>
         <Class IRI="http://purl.obolibrary.org/obo/SYMP_0000462"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000259"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000259"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0021003"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000260"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000260"/>
         <Class IRI="http://purl.obolibrary.org/obo/ICO_0000001"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000261"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000261"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000310"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000263"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000263"/>
         <Class IRI="http://purl.obolibrary.org/obo/RO_0002577"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000265"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000265"/>
         <Class IRI="http://purl.obolibrary.org/obo/VICO_0000072"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000265"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000265"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000057"/>
-            <Class IRI="#VICK_0000267"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000267"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000265"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000265"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000057"/>
             <ObjectIntersectionOf>
                 <Class IRI="http://purl.obolibrary.org/obo/VICO_0000023"/>
-                <Class IRI="#VICK_0000266"/>
+                <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000266"/>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000265"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000265"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000057"/>
             <ObjectUnionOf>
@@ -1329,184 +1344,184 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000265"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000265"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000063"/>
-            <Class IRI="#VICK_0000282"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000282"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000266"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000266"/>
         <Class IRI="http://purl.obolibrary.org/obo/VICO_0000016"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000267"/>
-        <Class IRI="#VICK_0000225"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000267"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000225"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000268"/>
-        <Class IRI="#VICK_0000236"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000268"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000236"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000269"/>
-        <Class IRI="#VICK_0000268"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000269"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000268"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000269"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000269"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000063"/>
-            <Class IRI="#VICK_0000270"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000270"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000270"/>
-        <Class IRI="#VICK_0000268"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000270"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000268"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000270"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000270"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000063"/>
-            <Class IRI="#VICK_0000271"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000271"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000271"/>
-        <Class IRI="#VICK_0000268"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000271"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000268"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000272"/>
-        <Class IRI="#VICK_0000282"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000272"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000282"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000272"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000272"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000167"/>
             <Class IRI="http://purl.obolibrary.org/obo/VO_0000049"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000272"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000272"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002224"/>
-            <Class IRI="#VICK_0000269"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000269"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000272"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000272"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002230"/>
-            <Class IRI="#VICK_0000271"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000271"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000273"/>
-        <Class IRI="#VICK_0000282"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000273"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000282"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000273"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000273"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000167"/>
-            <Class IRI="#VICK_0000006"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000006"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000273"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000273"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002224"/>
-            <Class IRI="#VICK_0000276"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000276"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000273"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000273"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002230"/>
-            <Class IRI="#VICK_0000277"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000277"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000274"/>
-        <Class IRI="#VICK_0000282"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000274"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000282"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000274"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000274"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000167"/>
             <Class IRI="http://purl.obolibrary.org/obo/VO_0011559"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000274"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000274"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002224"/>
-            <Class IRI="#VICK_0000279"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000279"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000274"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000274"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002230"/>
-            <Class IRI="#VICK_0000281"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000281"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000275"/>
-        <Class IRI="#VICK_0000236"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000275"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000236"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000276"/>
-        <Class IRI="#VICK_0000275"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000276"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000275"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000276"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000276"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000063"/>
-            <Class IRI="#VICK_0000277"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000277"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000277"/>
-        <Class IRI="#VICK_0000275"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000277"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000275"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000278"/>
-        <Class IRI="#VICK_0000236"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000278"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000236"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000279"/>
-        <Class IRI="#VICK_0000278"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000279"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000278"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000279"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000279"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000063"/>
-            <Class IRI="#VICK_0000280"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000280"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000280"/>
-        <Class IRI="#VICK_0000278"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000280"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000278"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000280"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000280"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000063"/>
-            <Class IRI="#VICK_0000281"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000281"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000281"/>
-        <Class IRI="#VICK_0000278"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000281"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000278"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000282"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000282"/>
         <Class IRI="http://purl.obolibrary.org/obo/VO_0000002"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000282"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000282"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000057"/>
             <ObjectIntersectionOf>
-                <Class IRI="#VICK_0000266"/>
+                <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000266"/>
                 <ObjectSomeValuesFrom>
                     <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000087"/>
                     <Class IRI="http://purl.obolibrary.org/obo/VO_0001274"/>
@@ -1515,46 +1530,46 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000283"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000283"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000182"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000284"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000284"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000284"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000284"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000136"/>
-            <Class IRI="#VICK_0000283"/>
+            <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000283"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VICK_0000285"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000285"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000182"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ZipCode"/>
-        <Class IRI="#Geographic_Location"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#ZipCode"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#Geographic_Location"/>
     </SubClassOf>
     <ClassAssertion>
-        <Class IRI="#VICK_0000247"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000247"/>
         <NamedIndividual IRI="http://purl.obolibrary.org/obo/VO_0000695"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/GEO_000000400"/>
-        <NamedIndividual IRI="#VICK_0000221"/>
+        <NamedIndividual IRI="http://w3id.org/vick/vick.owl#VICK_0000221"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
-        <NamedIndividual IRI="#VICK_0000246"/>
+        <NamedIndividual IRI="http://w3id.org/vick/vick.owl#VICK_0000246"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#VICK_0000263"/>
-        <NamedIndividual IRI="#VICK_0000264"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000263"/>
+        <NamedIndividual IRI="http://w3id.org/vick/vick.owl#VICK_0000264"/>
     </ClassAssertion>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#VICK_0000257"/>
+        <ObjectProperty IRI="http://w3id.org/vick/vick.owl#VICK_0000257"/>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000125"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
@@ -1562,1125 +1577,1125 @@
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
     </SubObjectPropertyOf>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#VICK_0000257"/>
+        <ObjectProperty IRI="http://w3id.org/vick/vick.owl#VICK_0000257"/>
         <Class IRI="http://purl.obolibrary.org/obo/OAE_0000004"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#VICK_0000257"/>
+        <ObjectProperty IRI="http://w3id.org/vick/vick.owl#VICK_0000257"/>
         <Class IRI="http://purl.obolibrary.org/obo/SYMP_0000462"/>
     </ObjectPropertyRange>
     <DataPropertyDomain>
-        <DataProperty IRI="#VICK_0000044"/>
-        <Class IRI="#VICK_0000043"/>
+        <DataProperty IRI="http://w3id.org/vick/vick.owl#VICK_0000044"/>
+        <Class IRI="http://w3id.org/vick/vick.owl#VICK_0000043"/>
     </DataPropertyDomain>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Administration_Processes</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#Administration_Processes</IRI>
         <Literal xml:lang="en">administration process</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#ApartmentNumber</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#ApartmentNumber</IRI>
         <Literal xml:lang="en">number corresponding to a person&apos;s apartment</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#ApartmentNumber</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#ApartmentNumber</IRI>
         <Literal>http://semanticscience.org/resource/SIO_000768</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#ApartmentNumber</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#ApartmentNumber</IRI>
         <Literal xml:lang="en">apartment number</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#Biochemical_Entity</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#Biochemical_Entity</IRI>
         <Literal xml:lang="en">a biological molecule involved in a metabloic pathway</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Biochemical_Entity</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#Biochemical_Entity</IRI>
         <Literal xml:lang="en">biochemical entity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#Biological_Entity</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#Biological_Entity</IRI>
         <Literal xml:lang="en">a biological molecule involved in a metabloic pathway</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Biological_Entity</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#Biological_Entity</IRI>
         <Literal xml:lang="en">biological entity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#Birthdate</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#Birthdate</IRI>
         <Literal xml:lang="en">the date which a person is born</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#Birthdate</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#Birthdate</IRI>
         <Literal>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68615</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Birthdate</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#Birthdate</IRI>
         <Literal xml:lang="en">birthdate</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#BodilyProcess</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#BodilyProcess</IRI>
         <Literal xml:lang="en">a process which occurs in the body</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#BodilyProcess</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#BodilyProcess</IRI>
         <Literal>http://purl.obolibrary.org/obo/OGMS_0000060</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#BodilyProcess</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#BodilyProcess</IRI>
         <Literal xml:lang="en">bodily process</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#BuildingNumber</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#BuildingNumber</IRI>
         <Literal xml:lang="en">number corresponding to a person&apos;s apartment building</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#BuildingNumber</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#BuildingNumber</IRI>
         <Literal>http://purl.bioontology.org/ontology/HL7/C1550714</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#BuildingNumber</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#BuildingNumber</IRI>
         <Literal xml:lang="en">building number</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#City</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#City</IRI>
         <Literal xml:lang="en">a major metropolitan center of a region</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#City</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#City</IRI>
         <Literal>http://purl.obolibrary.org/obo/creno.owl#City</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#City</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#City</IRI>
         <Literal xml:lang="en">city</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#ClinicAddress</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#ClinicAddress</IRI>
         <Literal xml:lang="en">the location of a clinic or physician&apos;s ofice</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#ClinicAddress</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#ClinicAddress</IRI>
         <Literal xml:lang="en">clinic address</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#Country</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#Country</IRI>
         <Literal xml:lang="en">A Geopolitical Entity that delimits a Government with effective internal and external sovereignty over the region and its population, and which is not dependent on or subject to any other power or Geopolitical Entity.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#Country</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#Country</IRI>
         <Literal>http://www.ontologyrepository.com/CommonCoreOntologies/Country</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Country</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#Country</IRI>
         <Literal xml:lang="en">country</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Digital_Address</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#Digital_Address</IRI>
         <Literal xml:lang="en">digital address</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#EmailAddress</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#EmailAddress</IRI>
         <Literal xml:lang="en">the address a person can receive and send electronic messages</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#EmailAddress</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#EmailAddress</IRI>
         <Literal>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42775</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#EmailAddress</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#EmailAddress</IRI>
         <Literal xml:lang="en">email address</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#Geographic_Location</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#Geographic_Location</IRI>
         <Literal xml:lang="en">A reference to a place on the Earth, by its name or by its geographical location.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#Geographic_Location</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#Geographic_Location</IRI>
         <Literal>http://purl.obolibrary.org/obo/GAZ_00000448</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Geographic_Location</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#Geographic_Location</IRI>
         <Literal xml:lang="en">geographic location</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#HomeAddres</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#HomeAddres</IRI>
         <Literal xml:lang="en">the place where a person or organization is located or may be reached</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#HomeAddres</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#HomeAddres</IRI>
         <Literal>http://purl.org/net/OCRe/OCRe.owl#OCRE400040</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#HomeAddres</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#HomeAddres</IRI>
         <Literal xml:lang="en">home address</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#ID</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#ID</IRI>
         <Literal xml:lang="en">form of identification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#ID</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#ID</IRI>
         <Literal xml:lang="en">id</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#ImmuneResponse</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#ImmuneResponse</IRI>
         <Literal xml:lang="en">Any immune system process that functions in the calibrated response of an organism to a potential internal or invasive threat.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#ImmuneResponse</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#ImmuneResponse</IRI>
         <Literal>http://purl.obolibrary.org/obo/GO_0006955</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#ImmuneResponse</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#ImmuneResponse</IRI>
         <Literal xml:lang="en">immune response</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Indentifiers</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#Indentifiers</IRI>
         <Literal xml:lang="en">identifiers</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#Name</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#Name</IRI>
         <Literal xml:lang="en">a combination of words by which a person is called</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#Name</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#Name</IRI>
         <Literal>https://www.codamono.com/biointerchange/gfvo#Name</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Name</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#Name</IRI>
         <Literal xml:lang="en">name</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#State</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#State</IRI>
         <Literal xml:lang="en">regional government within a country</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#State</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#State</IRI>
         <Literal>http://purl.obolibrary.org/obo/creno.owl#State</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#State</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#State</IRI>
         <Literal xml:lang="en">state</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#Street</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#Street</IRI>
         <Literal xml:lang="en">a public roadway in a village, town, or city</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#Street</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#Street</IRI>
         <Literal>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C80230</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Street</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#Street</IRI>
         <Literal xml:lang="en">street</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#Telephone</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#Telephone</IRI>
         <Literal xml:lang="en">the cellular number where a person can be reached</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#Telephone</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#Telephone</IRI>
         <Literal>http://purl.obolibrary.org/obo/NCIT_C40978</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Telephone</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#Telephone</IRI>
         <Literal xml:lang="en">telephone</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000002</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000002</IRI>
         <Literal xml:lang="en">vaccine data item</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/ICO_0000092"/>
-        <IRI>#VICK_0000003</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000003</IRI>
         <Literal>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70848</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000003</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000003</IRI>
         <Literal>a unique identifier assigned to a specific batch  of a vaccine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000003</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000003</IRI>
         <Literal xml:lang="en">vaccine lot number</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000004</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000004</IRI>
         <Literal>the succession of vaccinations provided for a particular disease</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000004</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000004</IRI>
         <Literal xml:lang="en">vaccine series number</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000005</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000005</IRI>
         <Literal>The date assigned by the manufacturer on which the vaccine should no longer be used</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000005</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000005</IRI>
         <Literal xml:lang="en">vaccine expiration date</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000006</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000006</IRI>
         <Literal xml:lang="en">a variant of the HPV vaccine which targets 9 HPV strains</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000006</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000006</IRI>
         <Literal xml:lang="en">Gardasil 9</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000007</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000007</IRI>
         <Literal xml:lang="en">HPV strain</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000007</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000007</IRI>
         <Literal xml:lang="en">HPV 11</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000008</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000008</IRI>
         <Literal xml:lang="en">HPV strain</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000008</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000008</IRI>
         <Literal xml:lang="en">HPV 16</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000009</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000009</IRI>
         <Literal xml:lang="en">HPV strain</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000009</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000009</IRI>
         <Literal xml:lang="en">HPV 18</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000010</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000010</IRI>
         <Literal xml:lang="en">HPV strain</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000010</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000010</IRI>
         <Literal xml:lang="en">HPV 31</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000011</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000011</IRI>
         <Literal xml:lang="en">HPV strain</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000011</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000011</IRI>
         <Literal xml:lang="en">HPV 33</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000012</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000012</IRI>
         <Literal xml:lang="en">HPV strain</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000012</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000012</IRI>
         <Literal xml:lang="en">HPV 45</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000013</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000013</IRI>
         <Literal xml:lang="en">HPV strain</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000013</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000013</IRI>
         <Literal xml:lang="en">HPV 52</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000014</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000014</IRI>
         <Literal xml:lang="en">HPV strain</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000014</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000014</IRI>
         <Literal xml:lang="en">HPV 58</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000015</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000015</IRI>
         <Literal xml:lang="en">HPV strain</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000015</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000015</IRI>
         <Literal xml:lang="en">HPV 6</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000016</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000016</IRI>
         <Literal xml:lang="en">vaccination against HepB infection</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#VICK_0000016</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000016</IRI>
         <Literal>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C178932</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000016</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000016</IRI>
         <Literal xml:lang="en">HepB vaccination</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#VICK_0000020</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000020</IRI>
         <Literal>http://purl.obolibrary.org/obo/OMRSE_00000207</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000020</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000020</IRI>
         <Literal xml:lang="en">hispanic or latino</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#VICK_0000021</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000021</IRI>
         <Literal>http://purl.obolibrary.org/obo/OMRSE_00000208</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000021</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000021</IRI>
         <Literal xml:lang="en">not hispanic or latino</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#VICK_0000024</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000024</IRI>
         <Literal>http://purl.obolibrary.org/obo/OMRSE_00000215</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000024</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000024</IRI>
         <Literal xml:lang="en">American Indian or Alaska Native</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#VICK_0000025</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000025</IRI>
         <Literal>http://purl.obolibrary.org/obo/OMRSE_00000216</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000025</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000025</IRI>
         <Literal xml:lang="en">Asian</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#VICK_0000026</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000026</IRI>
         <Literal>http://purl.obolibrary.org/obo/OMRSE_00000217</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000026</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000026</IRI>
         <Literal xml:lang="en">Black or African American</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#VICK_0000027</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000027</IRI>
         <Literal>http://purl.obolibrary.org/obo/OMRSE_00000218</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000027</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000027</IRI>
         <Literal xml:lang="en">Native Hawaiian or Other Pacific Islander</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#VICK_0000028</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000028</IRI>
         <Literal>http://purl.obolibrary.org/obo/OMRSE_00000219</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000028</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000028</IRI>
         <Literal xml:lang="en">White</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000029</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000029</IRI>
         <Literal xml:lang="en">component related to HPV</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000029</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000029</IRI>
         <Literal xml:lang="en">HPV entity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000030</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000030</IRI>
         <Literal xml:lang="en">the infectious units of papillomaviruses</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000030</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000030</IRI>
         <Literal xml:lang="en">papillomavirus particles</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000031</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000031</IRI>
         <Literal xml:lang="en">A physical entity consisting of a sequence of amino acids; a protein monomer; a single polypeptide chain. </Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#VICK_0000031</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000031</IRI>
         <Literal>http://www.biopax.org/release/biopax-level3.owl#Protein</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000031</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000031</IRI>
         <Literal xml:lang="en">protein</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000032</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000032</IRI>
         <Literal xml:lang="en">non-infectious, virus-derived structures that mimic the form and size of a virus but lack the genetic material necessary for replication</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000032</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000032</IRI>
         <Literal xml:lang="en">virus-like particles</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000033</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000033</IRI>
         <Literal xml:lang="en">protein which facilitates the early spead of papillomavirus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000033</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000033</IRI>
         <Literal xml:lang="en">E1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000034</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000034</IRI>
         <Literal xml:lang="en">protein which facilitates the early spead of papillomavirus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000034</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000034</IRI>
         <Literal xml:lang="en">E2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000035</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000035</IRI>
         <Literal xml:lang="en">protein which facilitates the early spead of papillomavirus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000035</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000035</IRI>
         <Literal xml:lang="en">E3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000036</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000036</IRI>
         <Literal xml:lang="en">protein which facilitates the early spead of papillomavirus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000036</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000036</IRI>
         <Literal xml:lang="en">E4</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000037</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000037</IRI>
         <Literal xml:lang="en">protein which facilitates the early spead of papillomavirus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000037</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000037</IRI>
         <Literal xml:lang="en">E5</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000038</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000038</IRI>
         <Literal xml:lang="en">protein which facilitates the early spead of papillomavirus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000038</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000038</IRI>
         <Literal xml:lang="en">E6</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000039</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000039</IRI>
         <Literal xml:lang="en">protein which facilitates the early spead of papillomavirus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000039</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000039</IRI>
         <Literal xml:lang="en">E7</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000040</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000040</IRI>
         <Literal xml:lang="en">gene and protein which encodes for HPV strain</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000040</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000040</IRI>
         <Literal xml:lang="en">L1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000041</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000041</IRI>
         <Literal xml:lang="en">gene and protein which encodes for HPV strain</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000041</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000041</IRI>
         <Literal xml:lang="en">L2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000042</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000042</IRI>
         <Literal xml:lang="en">Immunoglobulin molecules having a specific amino acid sequence by virtue of which they interact only with the ANTIGEN (or a very similar shape) that induced their synthesis in cells of the lymphoid series </Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#VICK_0000042</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000042</IRI>
         <Literal>http://purl.bioontology.org/ontology/MESH/D000906</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000042</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000042</IRI>
         <Literal xml:lang="en">antibodies</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000043</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000043</IRI>
         <Literal xml:lang="en">An action specification comprising the number of doses and their timing for a vaccination of an individual organism against a specific infectious agent.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000043</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000043</IRI>
         <Literal xml:lang="en">vaccination schedule</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000044</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000044</IRI>
         <Literal xml:lang="en">has vaccination schedule value</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000045</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000045</IRI>
         <Literal xml:lang="en">the age in which a person is eligible to receive a vaccine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000045</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000045</IRI>
         <Literal xml:lang="en">age of eligibility</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000046</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000046</IRI>
         <Literal xml:lang="en">the minimum interval of time for successive doses of a vaccine to be administeres</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000046</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000046</IRI>
         <Literal xml:lang="en">min interval between</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000047</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000047</IRI>
         <Literal xml:lang="en">minimum age it is recommended for a vaccine to be administeres</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000047</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000047</IRI>
         <Literal xml:lang="en">min overdue age</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000048</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000048</IRI>
         <Literal xml:lang="en">minimum age required to receive the immunization</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000048</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000048</IRI>
         <Literal xml:lang="en">min rec age</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000049</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000049</IRI>
         <Literal xml:lang="en">the minimum reccomended interval for administration</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000049</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000049</IRI>
         <Literal xml:lang="en">min rec interval</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000050</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000050</IRI>
         <Literal xml:lang="en">interval of time where it is not recommended to administer successive doses</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000050</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000050</IRI>
         <Literal xml:lang="en">overdue interval between</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000051</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000051</IRI>
         <Literal xml:lang="en">nurse</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000052</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000052</IRI>
         <Literal xml:lang="en">laryngeal cancer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000220</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000220</IRI>
         <Literal xml:lang="en">is reported by</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000221</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000221</IRI>
         <Literal xml:lang="en">Vaccine Adverse Event Reporting System (VAERS)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000222</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000222</IRI>
         <Literal xml:lang="en">health care provider</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000223</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000223</IRI>
         <Literal xml:lang="en">doctor</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000224</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000224</IRI>
         <Literal xml:lang="en">physician</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000225</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000225</IRI>
         <Literal xml:lang="en">vaccine administrator</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#VICK_0000227</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000227</IRI>
         <Literal>A pubic safety employee or volunteer whose duties include responding rapidly to an emergency</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000227</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000227</IRI>
         <Literal xml:lang="en">first responder</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#VICK_0000227</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000227</IRI>
         <Literal>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C172263</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000228</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000228</IRI>
         <Literal xml:lang="en">gender identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000229</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000229</IRI>
         <Literal xml:lang="en">date of birth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#VICK_0000229</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000229</IRI>
         <Literal>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68615</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000230</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000230</IRI>
         <Literal xml:lang="en">male gender identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000231</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000231</IRI>
         <Literal xml:lang="en">female gender identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000232</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000232</IRI>
         <Literal xml:lang="en">intersex gender identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000233</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000233</IRI>
         <Literal xml:lang="en">transgender identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000234</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000234</IRI>
         <Literal xml:lang="en">digital address</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000235</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000235</IRI>
         <Literal xml:lang="en">email address</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#VICK_0000235</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000235</IRI>
         <Literal>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42775</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000236</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000236</IRI>
         <Literal xml:lang="en">vaccination dose</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000237</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000237</IRI>
         <Literal xml:lang="en">hpv-related cancer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000238</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000238</IRI>
         <Literal xml:lang="en">oropharyngeal cancer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000239</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000239</IRI>
         <Literal xml:lang="en">penile cancer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000240</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000240</IRI>
         <Literal xml:lang="en">vaginal cancer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000241</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000241</IRI>
         <Literal xml:lang="en">cervical cancer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000242</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000242</IRI>
         <Literal xml:lang="en">anal cancer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000243</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000243</IRI>
         <Literal xml:lang="en">vulvar cancer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000245</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000245</IRI>
         <Literal>a place with a group of physicians dedicated to the treatment of patients</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000245</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000245</IRI>
         <Literal xml:lang="en">health care clinic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#VICK_0000245</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000245</IRI>
         <Literal>http://purl.bioontology.org/ontology/SNOMEDCT/257585005</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000246</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000246</IRI>
         <Literal xml:lang="en">National Vaccine Injury Compensation Program (VICP)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000247</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000247</IRI>
         <Literal xml:lang="en">pharmaceutical company</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000249</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000249</IRI>
         <Literal xml:lang="en">viral infection</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000250</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000250</IRI>
         <Literal xml:lang="en">human papilllomavirus infection</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000252</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000252</IRI>
         <Literal xml:lang="en">upper deltoid</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000253</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000253</IRI>
         <Literal xml:lang="en">cervical changes</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000254</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000254</IRI>
         <Literal xml:lang="en">genital warts</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000255</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000255</IRI>
         <Literal xml:lang="en">skin itchiness</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000256</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000256</IRI>
         <Literal xml:lang="en">skin warts</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000257</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000257</IRI>
         <Literal xml:lang="en">has vaccine adverse signs</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000258</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000258</IRI>
         <Literal xml:lang="en">has symptoms</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000259</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000259</IRI>
         <Literal>the act of disclosing valuable information</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000259</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000259</IRI>
         <Literal xml:lang="en">disclosure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#VICK_0000259</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000259</IRI>
         <Literal>http://purl.bioontology.org/ontology/MESH/D030881</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000260</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000260</IRI>
         <Literal xml:lang="en">minor informed consent form</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
-        <IRI>#VICK_0000261</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000261</IRI>
         <Literal>VIS</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#VICK_0000261</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000261</IRI>
         <Literal>sheets that explain both the benefits and risks of a vaccine to vaccine recipients</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>#VICK_0000261</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000261</IRI>
         <Literal>http://purl.bioontology.org/ontology/LNC/LP28490-8</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000261</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000261</IRI>
         <Literal xml:lang="en">Vaccine Information Statement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000263</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000263</IRI>
         <Literal xml:lang="en">immunization registry</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000264</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000264</IRI>
         <Literal xml:lang="en">ImmTrac2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000265</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000265</IRI>
         <Literal xml:lang="en">hpv vaccination informed consent process</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000266</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000266</IRI>
         <Literal xml:lang="en">hpv vaccination patient</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000267</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000267</IRI>
         <Literal xml:lang="en">hpv vaccine administrator</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000268</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000268</IRI>
         <Literal xml:lang="en">Gardasil vaccination dose</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000269</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000269</IRI>
         <Literal xml:lang="en">First Gardasil vaccination dose</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000270</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000270</IRI>
         <Literal xml:lang="en">Second Gardasil vaccination dose</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000271</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000271</IRI>
         <Literal xml:lang="en">Third Gardasil vaccination dose</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000272</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000272</IRI>
         <Literal xml:lang="en">Gardasil HPV vaccination</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000273</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000273</IRI>
         <Literal xml:lang="en">Gardasil 9 HPV vaccination</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000274</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000274</IRI>
         <Literal xml:lang="en">Cervarix HPV vaccination</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000275</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000275</IRI>
         <Literal xml:lang="en">Gardasil 9 vaccination dose</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000276</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000276</IRI>
         <Literal xml:lang="en">First Gardasil 9 vaccination dose</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000277</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000277</IRI>
         <Literal xml:lang="en">Second Gardasil 9 vaccination dose</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000278</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000278</IRI>
         <Literal xml:lang="en">Cervarix vaccination dose</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000279</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000279</IRI>
         <Literal xml:lang="en">First Cervarix vaccination dose</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000280</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000280</IRI>
         <Literal xml:lang="en">Second Cervarix vaccination dose</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000281</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000281</IRI>
         <Literal xml:lang="en">Third Cervarix vaccination dose</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000282</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000282</IRI>
         <Literal xml:lang="en">human papillomavirus vaccination</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000283</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000283</IRI>
         <Literal xml:lang="en">vaccination history</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000284</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000284</IRI>
         <Literal xml:lang="en">immunization record</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#VICK_0000285</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#VICK_0000285</IRI>
         <Literal xml:lang="en">allergic reaction history</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition"/>
-        <IRI>#ZipCode</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#ZipCode</IRI>
         <Literal xml:lang="en">a system used in the U.S. consisting of a five-digit code </Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>#ZipCode</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#ZipCode</IRI>
         <Literal>http://purl.obolibrary.org/obo/NCIT_C25720</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#ZipCode</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#ZipCode</IRI>
         <Literal xml:lang="en">zip code</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#is_documented_by</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#is_documented_by</IRI>
         <Literal xml:lang="en">is documented by</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#placed_on</IRI>
+        <IRI>http://w3id.org/vick/vick.owl#placed_on</IRI>
         <Literal xml:lang="en">placed on</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
